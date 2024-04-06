@@ -320,13 +320,12 @@
     }
   },
   {
-    "name": "Indian Temples",
+    "name": "Remaining Useful Life (RUL) prediction for NASA turbofan degradation dataset",
     "desc": "It shows temples of different sectors of India. as user clicks it will redirect to wiki of that temple for info.",
     "image": "templeweb",
     "category": "basicweb",
     "links": {
-      "view": "#",
-      "code": "#"
+      "code": "https://github.com/Vidhyambika/PG-Projects/tree/main/RUL%20Prediction%20-%20Nasa%20Turbofan%20Degradation%20dataset"
     }
   },
   {
