@@ -322,7 +322,7 @@
   {
     "name": "Remaining Useful Life (RUL) prediction for NASA turbofan degradation dataset",
     "desc": "It shows temples of different sectors of India. as user clicks it will redirect to wiki of that temple for info.",
-    "image": "https://github.com/Vidhyambika/Vidhyambika.github.io/blob/main/project%20images/Turbofan-operation-lbp.png",
+    "image": "project images/Turbofan-operation-lbp.png",
     "category": "basicweb",
     "links": {
       "code": "https://github.com/Vidhyambika/PG-Projects/tree/main/RUL%20Prediction%20-%20Nasa%20Turbofan%20Degradation%20dataset"
