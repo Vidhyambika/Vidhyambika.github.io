@@ -320,11 +320,12 @@
     }
   },
   {
-    "name": "Remaining Useful Life (RUL) prediction for NASA turbofan degradation dataset",
+    "name": "RUL prediction",
     "desc": " Predicting Remaining Useful Life (RUL) for NASA turbofan",
-    "image": "Turbofan-operation-lbp",
+    "image": "Turbofan",
     "category": "basicweb",
     "links": {
+      "view": https://www.kaggle.com/code/vidhyambikasr/nasa-eda-rul-prediction
       "code": "https://github.com/Vidhyambika/PG-Projects/tree/main/RUL%20Prediction%20-%20Nasa%20Turbofan%20Degradation%20dataset"
     }
   },
