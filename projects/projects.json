@@ -310,13 +310,13 @@
     }
   },
   {
-    "name": "Indian Temples",
-    "desc": "It shows temples of different sectors of India. as user clicks it will redirect to wiki of that temple for info.",
+    "name": "Song Genre Classification",
+    "desc": "Song genre classifier for Spotify songs",
     "image": "templeweb",
     "category": "basicweb",
     "links": {
-      "view": "#",
-      "code": "#"
+      "view": "https://www.kaggle.com/code/vidhyambikasr/eda-song-genre-classification",
+      "code": "https://github.com/Vidhyambika/PG-Projects/tree/main/Song%20or%20Music%20Genre%20Classification"
     }
   },
   {
@@ -325,7 +325,7 @@
     "image": "Turbofan",
     "category": "basicweb",
     "links": {
-      "view": https://www.kaggle.com/code/vidhyambikasr/nasa-eda-rul-prediction
+      "view": "https://www.kaggle.com/code/vidhyambikasr/nasa-eda-rul-prediction",
       "code": "https://github.com/Vidhyambika/PG-Projects/tree/main/RUL%20Prediction%20-%20Nasa%20Turbofan%20Degradation%20dataset"
     }
   },
