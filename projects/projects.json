@@ -330,13 +330,13 @@
     }
   },
   {
-    "name": "Indian Temples",
-    "desc": "It shows temples of different sectors of India. as user clicks it will redirect to wiki of that temple for info.",
+    "name": "Kaggle Projects",
+    "desc": "It shows a collection of all the Kaggle notebooks created for Kaggle datasets and Kaggle competitions.",
     "image": "templeweb",
     "category": "basicweb",
     "links": {
-      "view": "#",
-      "code": "#"
+      "view": "https://www.kaggle.com/vidhyambikasr",
+      "code": "https://github.com/Vidhyambika/Kaggle-Notebooks"
     }
   }
 ]
