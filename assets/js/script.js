@@ -79,15 +79,6 @@ var typed = new Typed(".typing-text", {
 });
 // <!-- typed js effect ends -->
 
-async function fetchData(type = "skills") {
-    let response
-    type === "skills" ?
-        response = await fetch("skills.json")
-        :
-        response = await fetch("./projects/projects.json")
-    const data = await response.json();
-    return data;
-}
 import React, { useState, useEffect } from 'react';
 import ReactDOM from 'react-dom';
 import FastAverageColor from 'fast-average-color';
@@ -130,6 +121,20 @@ const Skill = ({ name, image }) => {
   );
 };
 
+async function fetchData(type = "skills") {
+  let response
+  if (type === "skills") {
+    response = await fetch("skills.json")
+  } else {
+    response = await fetch("./projects/projects.json")
+  }
+  const data = await response.json();
+  return data;
+}
+
+const skillsData = await fetchData("skills");
+const skills = skillsData.skills;
+
 function showSkills(skills) {
   let skillsContainer = document.getElementById("skillsContainer");
   let skillHTML = "";
@@ -145,10 +150,10 @@ function showSkills(skills) {
   skillsContainer.innerHTML = skillHTML;
 }
 
-const skills = skillsData.skills;
 showSkills(skills);
 
 ReactDOM.render(<Skill name="React" image="https://reactjs.org/logo-og.png" />, document.getElementById('root'));
+
 
 
 function showProjects(projects) {
