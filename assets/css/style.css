@@ -501,8 +501,23 @@ header .navbar ul li a:hover {
   flex-direction: column;
   align-items: center;
   gap: 1rem;
-  margin-top: 1rem;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-color: var(--bg-color);
 }
+
+.skill img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+}
+
+.skill p {
+  font-size: 1.2rem;
+  text-transform: capitalize;
+}
+
 .skills .container .bar .info i {
   font-size: 4rem;
 }
