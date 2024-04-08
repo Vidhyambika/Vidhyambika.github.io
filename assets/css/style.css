@@ -461,20 +461,16 @@ header .navbar ul li a:hover {
 /* skills section starts */
 .skills {
   min-height: 90vh;
-  /* Changed background color to #f7f7f7 */
-  background: #f7f7f7;
+  background: linear-gradient(to bottom, #57059e, #4a00e0);
 }
-
 .skills h2 {
   color: #fff;
 }
-
 .skills .heading span {
-  color: #fff;
+  color: rgb(255, 230, 0);
 }
-
 .skills .container {
-  background: none;
+  background: rgba(0, 0, 22, 0.4);
   color: #fff;
   border-radius: 1rem;
   padding: 2rem;
@@ -482,63 +478,41 @@ header .navbar ul li a:hover {
   margin: auto;
   margin-top: 2rem;
 }
-
 .skills .container .row {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   flex-wrap: wrap;
   gap: 1.8rem;
 }
-
 .skills .container .bar {
   margin-bottom: 15px;
   padding: 10px;
-  border-radius: 50%;
-  background: #fff;
+  border-radius: 1rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  background: rgba(0, 0, 22, 0.9);
   transition: 0.2s;
-  width: 150px;
-  height: 150px;
-  box-shadow: none;
 }
-
 .skills .container .bar:hover {
+  box-shadow: 0 8px 10px rgba(0, 2, 68, 0.8) !important;
   background-color: rgba(0, 0, 0, 0.9) !important;
 }
-
 .skills .container .bar .info {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 1rem;
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
-  background-color: var(--bg-color);
+  margin-top: 1rem;
 }
-
-.skill img {
-  width: 80px;
-  height: 80px;
-  object-fit: cover;
-}
-
-.skill p {
-  font-size: 1.2rem;
-  text-transform: capitalize;
-}
-
 .skills .container .bar .info i {
   font-size: 4rem;
 }
-
 .skills .container .bar .info span {
   font-size: 2rem;
   font-weight: 500;
   font-family: "Poppins";
   margin-left: 0.5rem;
 }
-
-/* Skills media queries starts*/
+/* skills media queries starts*/
 @media screen and (max-width: 600px) {
   .skills .container {
     padding: 0;
@@ -555,7 +529,6 @@ header .navbar ul li a:hover {
     width: 100%;
   }
 }
-
 /* skills media queries ends*/
 /* skills section ends */
 
