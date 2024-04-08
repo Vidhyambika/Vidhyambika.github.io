@@ -79,81 +79,30 @@ var typed = new Typed(".typing-text", {
 });
 // <!-- typed js effect ends -->
 
-import React, { useState, useEffect } from 'react';
-import ReactDOM from 'react-dom';
-import FastAverageColor from 'fast-average-color';
-import skillsData from './skills.json';
-
-const Skill = ({ name, image }) => {
-  const [bgColor, setBgColor] = useState('');
-
-  useEffect(() => {
-    const fastAverageColor = new FastAverageColor();
-    fastAverageColor.getColorAsync(image)
-      .then(color => {
-        const rgba = color.rgb.split(')');
-        setBgColor(`rgba(${rgba[0]}, 0.07)`);
-      })
-      .catch(e => {
-        console.log(e);
-      });
-  }, [image]);
-
-  return (
-    <div
-      className="flex flex-col justify-center items-center gap-2"
-      style={{ backgroundColor: bgColor }}
-    >
-      <div
-        title={name}
-        className={`h-20 w-20 md:h-24 md:w-24 rounded-full bg-gray-100 dark:bg-grey-800 flex items-center justify-center`}
-      >
-        <img
-          alt="skill"
-          width={100}
-          height={100}
-          className={`h-12 w-12 md:h-14 md:w-14 object-contain ${theme === 'dark' && (name === "GitHub" || name === "Vercel" || name === "NextJS" || name === "ExpressJS" ? 'invert' : 'invert-0')}`}
-          src={image}
-        />
-      </div>
-      <p className="text-sm md:text-base">{name}</p>
-    </div>
-  );
-};
-
 async function fetchData(type = "skills") {
-  let response
-  if (type === "skills") {
-    response = await fetch("skills.json")
-  } else {
-    response = await fetch("./projects/projects.json")
-  }
-  const data = await response.json();
-  return data;
+    let response
+    type === "skills" ?
+        response = await fetch("skills.json")
+        :
+        response = await fetch("./projects/projects.json")
+    const data = await response.json();
+    return data;
 }
 
-const skillsData = await fetchData("skills");
-const skills = skillsData.skills;
-
 function showSkills(skills) {
-  let skillsContainer = document.getElementById("skillsContainer");
-  let skillHTML = "";
-  skills.forEach(skill => {
-    skillHTML += `
+    let skillsContainer = document.getElementById("skillsContainer");
+    let skillHTML = "";
+    skills.forEach(skill => {
+        skillHTML += `
         <div class="bar">
               <div class="info">
                 <img src=${skill.icon} alt="skill" />
                 <span>${skill.name}</span>
               </div>
             </div>`
-  });
-  skillsContainer.innerHTML = skillHTML;
+    });
+    skillsContainer.innerHTML = skillHTML;
 }
-
-showSkills(skills);
-
-ReactDOM.render(<Skill name="React" image="https://reactjs.org/logo-og.png" />, document.getElementById('root'));
-
 
 
 function showProjects(projects) {
