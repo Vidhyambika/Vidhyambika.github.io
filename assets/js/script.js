@@ -71,7 +71,7 @@ document.addEventListener('visibilitychange',
 
 // <!-- typed js effect starts -->
 var typed = new Typed(".typing-text", {
-    strings: ["machine learning", "data science", "artificial intelligence", "computer vision", "natural language processing", "generative ai", "full-stack development"],
+    strings: ["frontend development", "backend development", "web designing", "android development", "web development"],
     loop: true,
     typeSpeed: 50,
     backSpeed: 25,
@@ -103,7 +103,6 @@ function showSkills(skills) {
     });
     skillsContainer.innerHTML = skillHTML;
 }
-
 
 function showProjects(projects) {
     let projectsContainer = document.querySelector("#work .box-container");
