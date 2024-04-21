@@ -11,12 +11,12 @@
   },
   {
     "name": "Skin-cancer-Prediction",
-    "desc": "All in one SPPU Engineering resources. Built using Java, XML and Firebase.",
+    "desc": "Detect skin cancer based on severity of various symptoms",
     "image": "sppuprepandroid",
     "category": "android",
     "links": {
-      "view": "https://www.linkedin.com/posts/jigar-sable_androiddev-androidstudio-java-activity-6955224473822199808-JT0j",
-      "code": "https://github.com/jigar-sable/sppu-prep-android"
+      "view": "https://github.com/Vidhyambika/Skin-cancer-Prediction/blob/main/skin%20cancer%20prediction%20vidhyambika.pdf",
+      "code": "https://github.com/Vidhyambika/Skin-cancer-Prediction"
     }
   },
   {
