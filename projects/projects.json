@@ -12,8 +12,8 @@
   {
     "name": "Skin-cancer-Prediction",
     "desc": "Detect skin cancer based on severity of various symptoms",
-    "image": "sppuprepandroid",
-    "category": "android",
+    "image": "sp",
+    "category": "UG Projects",
     "links": {
       "view": "https://github.com/Vidhyambika/Skin-cancer-Prediction/blob/main/skin%20cancer%20prediction%20vidhyambika.pdf",
       "code": "https://github.com/Vidhyambika/Skin-cancer-Prediction"
