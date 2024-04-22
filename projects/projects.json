@@ -12,7 +12,7 @@
   {
     "name": "Skin-cancer-Prediction",
     "desc": "Detect skin cancer based on severity of various symptoms",
-    "image": "sp",
+    "image": "image",
     "category": "UG Projects",
     "links": {
       "view": "https://github.com/Vidhyambika/Skin-cancer-Prediction/blob/main/skin%20cancer%20prediction%20vidhyambika.pdf",
@@ -20,10 +20,10 @@
     }
   },
   {
-    "name": "NewsBox Android",
-    "desc": "Native android app built using Java, XML. Retrofit & Glide dependencies. Provides different category news.",
-    "image": "newsboxandroid",
-    "category": "android",
+    "name": "Week Ahead Wind Power Forecast Using Time Series Forecasting Model",
+    "desc": "Forecast the Wind Power a week ahead using Forecasted and Live Weather and Wind Atrributes fetched from API",
+    "image": "wind-power-plant",
+    "category": "Unique Projects",
     "links": {
       "view": "https://www.linkedin.com/posts/jigar-sable_androiddev-androidstudio-java-activity-6955224473822199808-JT0j",
       "code": "https://github.com/jigar-sable/newsbox-android"
