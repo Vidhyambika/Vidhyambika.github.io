@@ -100,13 +100,13 @@
     }
   },
   {
-    "name": "JavaScript Projects Website",
-    "desc": "This website is specially build to showcase all major javaScript projects. All my javaScript based projects are in it.",
-    "image": "jspro",
-    "category": "basicweb",
+    "name": "Mall Customer Segmentation",
+    "desc": "Segments and identify the target customers of a mall.",
+    "image": "mallpeople",
+    "category": "ug",
     "links": {
-      "view": "https://jigar-sable.github.io/JavaScript-Projects",
-      "code": "https://github.com/jigar-sable/JavaScript-Projects"
+      "view": "#",
+      "code": "https://github.com/Vidhyambika/UG-Projects/tree/main/4th%20year%20-%20final%20year/Mall%20Customer%20Classification"
     }
   },
   {
