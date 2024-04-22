@@ -72,8 +72,8 @@
   {
     "name": "Customer Personality Analysis",
     "desc": "Analysing Customer Personality through personal information and shopping behaviour",
-    "image": "resumegen",
-    "category": "mern",
+    "image": "custpers",
+    "category": "pg",
     "links": {
       "view": "#",
       "code": "https://github.com/Vidhyambika/PG-Projects/tree/main/Customer%20Personality%20Analysis"
@@ -90,13 +90,13 @@
     }
   },
   {
-    "name": "Flipkart PHP",
-    "desc": "Full-Stack Flipkart Clone Using LAMP Stack. With all major features and OTP authentication and Cashfree payment gateway.",
-    "image": "flipkartphp",
-    "category": "lamp",
+    "name": "Credit Fraud Detection",
+    "desc": "Classifying transactions as Fraudelent and Non-Fraudelent transaction",
+    "image": "ecommerce",
+    "category": "pg",
     "links": {
-      "view": "https://github.com/jigar-sable/Flipkart-Clone-PHP",
-      "code": "https://github.com/jigar-sable/Flipkart-Clone-PHP"
+      "view": "#",
+      "code": "https://github.com/Vidhyambika/PG-Projects/tree/main/credit%20card%20fraud%20detection%20-%20single%20layer%20nn"
     }
   },
   {
