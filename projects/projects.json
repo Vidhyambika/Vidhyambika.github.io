@@ -323,20 +323,19 @@
     "name": "RUL prediction",
     "desc": "Predicting Remaining Useful Life (RUL) for NASA turbofan",
     "image": "Turbofan",
-    "category": "basicweb",
+    "category": "PG Projects",
     "links": {
       "view": "https://www.kaggle.com/code/vidhyambikasr/nasa-eda-rul-prediction",
       "code": "https://github.com/Vidhyambika/PG-Projects/tree/a8d6fca2768a798fefb3d8dcd47ca38c63d16379/RUL%20Prediction%20-%20Nasa%20Turbofan%20Degradation%20dataset"
     }
   },
   {
-    "name": "Indian Temples",
-    "desc": "It shows temples of different sectors of India. as user clicks it will redirect to wiki of that temple for info.",
-    "image": "templeweb",
-    "category": "basicweb",
+    "name": "Black Friday Sales EDA",
+    "desc": "EDA Sales report made using Excel",
+    "image": "vrinda",
+    "category": "PG Projects",
     "links": {
-      "view": "#",
-      "code": "#"
+      "code": "https://github.com/Vidhyambika/PG-Projects/tree/main/Black%20Friday%20Sales%20EDA"
     }
   }
 ]
