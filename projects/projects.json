@@ -35,28 +35,37 @@
     "image": "pdfchat",
     "category": "Other Unique Projects",
     "links": {
-      "view": "https://www.linkedin.com/posts/jigar-sable_androiddev-androidstudio-java-activity-6955224473822199808-JT0j",
-      "code": "https://github.com/jigar-sable/weatherly-android"
+      "view": "#",
+      "code": "https://github.com/Vidhyambika/PG-Projects/tree/main/PDF%20Question-Answer%20System%20using%20RAG"
+    }
+  },
+   {
+    "name": "RUL prediction",
+    "desc": "Predicting Remaining Useful Life (RUL) for NASA turbofan",
+    "image": "Turbofan",
+    "category": "PG Projects",
+    "links": {
+      "view": "https://www.kaggle.com/code/vidhyambikasr/nasa-eda-rul-prediction",
+      "code": "https://github.com/Vidhyambika/PG-Projects/tree/a8d6fca2768a798fefb3d8dcd47ca38c63d16379/RUL%20Prediction%20-%20Nasa%20Turbofan%20Degradation%20dataset"
     }
   },
   {
-    "name": "Instagram MERN",
-    "desc": "Full-Stack Instagram clone built using MERN stack and realtime chat with the help of socket.iO",
-    "image": "instagrammern",
-    "category": "mern",
+    "name": "Gender and Age Detection",
+    "desc": "Detects Gender and Image in live camera as well as in image",
+    "image": "genderage",
+    "category": "UG Projects",
     "links": {
-      "view": "https://instagramernstack.herokuapp.com/",
-      "code": "https://github.com/jigar-sable/instagram-mern"
+      "code": "https://github.com/Vidhyambika/UG-Projects/blob/main/3rd%20Year/Gender%20and%20Age%20Detection.zip"
     }
   },
   {
-    "name": "Flipkart MERN",
-    "desc": "Full-Stack Flipkart with Admin Dashboard and Paytm Payment Gateway. MERN Stack WebApp, ready to use for business.",
-    "image": "flipkartmern",
-    "category": "mern",
+    "name": "MNIST DIGIT CLASSIFICATION USING CNN",
+    "desc": "Classifies the digit in the given image using CNN",
+    "image": "sample_image",
+    "category": "UG Projects",
     "links": {
-      "view": "https://flipkartwebs.herokuapp.com/",
-      "code": "https://github.com/jigar-sable/flipkart-mern"
+      "l2 reg": "https://github.com/Vidhyambika/PG-Projects/tree/main/Digit%20classification%20of%20MNIST%20images%20with%20application%20of%20L2%20regularisation",
+      "code": "https://github.com/Vidhyambika/UG-Projects/blob/main/2nd%20year/MNIST%20DIGIT%20CLASSIFICATION%20USING%20CNN/sample_image.jpg"
     }
   },
   {
@@ -316,16 +325,6 @@
     "category": "PG Projects",
     "links": {
       "code": "https://github.com/Vidhyambika/PG-Projects/tree/main/Cat%20Vs%20Dog%20classification%20using%20Logistic%20Regression"
-    }
-  },
-  {
-    "name": "RUL prediction",
-    "desc": "Predicting Remaining Useful Life (RUL) for NASA turbofan",
-    "image": "Turbofan",
-    "category": "PG Projects",
-    "links": {
-      "view": "https://www.kaggle.com/code/vidhyambikasr/nasa-eda-rul-prediction",
-      "code": "https://github.com/Vidhyambika/PG-Projects/tree/a8d6fca2768a798fefb3d8dcd47ca38c63d16379/RUL%20Prediction%20-%20Nasa%20Turbofan%20Degradation%20dataset"
     }
   },
   {
