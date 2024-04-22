@@ -55,6 +55,7 @@
     "image": "genderage",
     "category": "ug",
     "links": {
+      "view":"#",
       "code": "https://github.com/Vidhyambika/UG-Projects/blob/main/3rd%20Year/Gender%20and%20Age%20Detection.zip"
     }
   },
@@ -64,18 +65,18 @@
     "image": "sample_image",
     "category": "ug",
     "links": {
-      "l2 reg": "https://github.com/Vidhyambika/PG-Projects/tree/main/Digit%20classification%20of%20MNIST%20images%20with%20application%20of%20L2%20regularisation",
+      "view": "https://github.com/Vidhyambika/PG-Projects/tree/main/Digit%20classification%20of%20MNIST%20images%20with%20application%20of%20L2%20regularisation",
       "code": "https://github.com/Vidhyambika/UG-Projects/blob/main/2nd%20year/MNIST%20DIGIT%20CLASSIFICATION%20USING%20CNN/sample_image.jpg"
     }
   },
   {
-    "name": "ResumeGen",
-    "desc": "ReactJS Basic Resume Generator which will generate customized resume in few minutes on your requirements.",
+    "name": "Customer Personality Analysis",
+    "desc": "Analysing Customer Personality through personal information and shopping behaviour",
     "image": "resumegen",
     "category": "mern",
     "links": {
-      "view": "https://resumegenx.netlify.app/",
-      "code": "https://github.com/jigar-sable/resumegen"
+      "view": "#",
+      "code": "https://github.com/Vidhyambika/PG-Projects/tree/main/Customer%20Personality%20Analysis"
     }
   },
   {
@@ -324,6 +325,7 @@
     "image": "catdog",
     "category": "pg",
     "links": {
+      "view":"#",
       "code": "https://github.com/Vidhyambika/PG-Projects/tree/main/Cat%20Vs%20Dog%20classification%20using%20Logistic%20Regression"
     }
   },
@@ -333,6 +335,7 @@
     "image": "vrinda",
     "category": "pg",
     "links": {
+      "view":"#",
       "code": "https://github.com/Vidhyambika/PG-Projects/tree/main/Black%20Friday%20Sales%20EDA"
     }
   }
