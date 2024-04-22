@@ -3,7 +3,7 @@
     "name": "Next-Word-Prediction-using-BERT",
     "desc": "Get next word suggestions for your text",
     "image": "nextword-bert",
-    "category": "Unique Projects",
+    "category": "Other Unique Projects",
     "links": {
       "view": "https://github.com/Vidhyambika/Next-Word-Prediction-using-BERT/blob/main/EXECUTION%20OF%20NEXT%20WORD%20PREDICTION%20FILE.docx",
       "code": "https://github.com/Vidhyambika/Next-Word-Prediction-using-BERT"
@@ -23,7 +23,7 @@
     "name": "Week Ahead Wind Power Forecast Using Time Series Forecasting",
     "desc": "Forecast the Wind Power a week ahead using Forecasted and Live Weather and Wind Atrributes fetched from API",
     "image": "wind-power-plant",
-    "category": "Unique Projects",
+    "category": "Other Unique Projects",
     "links": {
       "view": "https://ieeexplore.ieee.org/abstract/document/10112685",
       "code": "#"
@@ -32,8 +32,8 @@
   {
     "name": "PDF Chatbot based on RAG using Llama 2",
     "desc": "Chat with your PDF and receive answers to your questions related to the content in the PDF using this Retrieval Augmented Generation (RAG) application",
-    "image": "weatherlyandroid",
-    "category": "android",
+    "image": "pdfchat",
+    "category": "Other Unique Projects",
     "links": {
       "view": "https://www.linkedin.com/posts/jigar-sable_androiddev-androidstudio-java-activity-6955224473822199808-JT0j",
       "code": "https://github.com/jigar-sable/weatherly-android"
