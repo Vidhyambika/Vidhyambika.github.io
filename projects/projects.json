@@ -20,18 +20,18 @@
     }
   },
   {
-    "name": "Week Ahead Wind Power Forecast Using Time Series Forecasting Model",
+    "name": "Week Ahead Wind Power Forecast Using Time Series Forecasting",
     "desc": "Forecast the Wind Power a week ahead using Forecasted and Live Weather and Wind Atrributes fetched from API",
     "image": "wind-power-plant",
     "category": "Unique Projects",
     "links": {
-      "view": "https://www.linkedin.com/posts/jigar-sable_androiddev-androidstudio-java-activity-6955224473822199808-JT0j",
-      "code": "https://github.com/jigar-sable/newsbox-android"
+      "view": "https://ieeexplore.ieee.org/abstract/document/10112685",
+      "code": "#"
     }
   },
   {
-    "name": "Weatherly Android",
-    "desc": "Native android app built using Java, XML and Volley dependencies. Provides weather forecast.",
+    "name": "PDF Chatbot based on RAG using Llama 2",
+    "desc": "Chat with your PDF and receive answers to your questions related to the content in the PDF using this Retrieval Augmented Generation (RAG) application",
     "image": "weatherlyandroid",
     "category": "android",
     "links": {
@@ -300,23 +300,22 @@
     }
   },
   {
-    "name": "Burger Shop Dummy",
+    "name": "Song or Music Genre Classification",
     "desc": "Basic burger shop webpage allow users to check menu and price. Dummy Order Form.",
-    "image": "burgerweb",
-    "category": "basicweb",
+    "image": "spotify",
+    "category": "PG Projects",
     "links": {
-      "view": "#",
-      "code": "#"
+      "view": "https://www.kaggle.com/code/vidhyambikasr/eda-song-genre-classification",
+      "code": "https://github.com/Vidhyambika/PG-Projects/tree/main/Song%20or%20Music%20Genre%20Classification"
     }
   },
   {
-    "name": "Indian Temples",
-    "desc": "It shows temples of different sectors of India. as user clicks it will redirect to wiki of that temple for info.",
-    "image": "templeweb",
-    "category": "basicweb",
+    "name": "Cat Vs Dog classification using Logistic Regression",
+    "desc": "Classifies the given image as Cat or Dog",
+    "image": "catdog",
+    "category": "PG Projects",
     "links": {
-      "view": "#",
-      "code": "#"
+      "code": "https://github.com/Vidhyambika/PG-Projects/tree/main/Cat%20Vs%20Dog%20classification%20using%20Logistic%20Regression"
     }
   },
   {
