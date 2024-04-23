@@ -1,11 +1,11 @@
 [ 
      {
-        "name": "Time Series",
-        "icon": "https://img.icons8.com/?size=80&id=04iwuUW0c10P&format=png"
+        "name": "NumPy",
+        "icon": "https://img.icons8.com/?size=48&id=aR9CXyMagKIS&format=png"
     }, 
     {
-        "name": "Machine Learning",
-        "icon": "https://img.icons8.com/?size=60&id=IM1zmzuzvwiu&format=png"
+        "name": "Pandas",
+        "icon": "https://img.icons8.com/?size=48&id=xSkewUSqtErH&format=png"
     }, 
      {
         "name": "Deep Learning",
@@ -23,6 +23,19 @@
         "name": "Data Science",
         "icon": "https://img.icons8.com/?size=80&id=izgFdRB2AEqe&format=png"
     },
+     {
+        "name": "Computer Vision",
+        "icon": "https://img.icons8.com/?size=48&id=U5n0qpPE377X&format=png"
+    },
+     {
+        "name": "Python",
+        "icon": "https://img.icons8.com/color/48/000000/python--v1.png"
+    },
+     {
+        "name": "NLP",
+        "icon": "https://img.icons8.com/?size=80&id=TEiLRURnbBpn&format=png"
+    },
+     
      {
         "name": "Python",
         "icon": "https://img.icons8.com/color/48/000000/python--v1.png"
