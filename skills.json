@@ -1,5 +1,8 @@
-[
-     
+[ 
+     {
+        "name": "Time Series",
+        "icon": "https://img.icons8.com/?size=80&id=04iwuUW0c10P&format=png"
+    }, 
     {
         "name": "Machine Learning",
         "icon": "https://img.icons8.com/?size=80&id=QOAoKKAhjzfg&format=png"
