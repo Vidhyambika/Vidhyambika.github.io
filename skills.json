@@ -1,12 +1,29 @@
 [
-     {
-        "name": "Python",
-        "icon": "https://img.icons8.com/color/48/000000/python--v1.png"
-    },
+     
     {
         "name": "Machine Learning",
         "icon": "https://img.icons8.com/?size=80&id=tFtZYfD5boWL&format=png"
     }, 
+     {
+        "name": "Deep Learning",
+        "icon": "https://img.icons8.com/?size=48&id=114322&format=png"
+    },
+     {
+        "name": "Data Analysis",
+        "icon": "https://img.icons8.com/?size=80&id=w6TMKJIPnSF0&format=png"
+    },
+     {
+        "name": "Data Preparation",
+        "icon": "https://img.icons8.com/?size=80&id=uFkKR26hlbUn&format=png"
+    },
+     {
+        "name": "Data Science",
+        "icon": "https://img.icons8.com/?size=80&id=izgFdRB2AEqe&format=png"
+    },
+     {
+        "name": "Python",
+        "icon": "https://img.icons8.com/color/48/000000/python--v1.png"
+    },
     {
         "name": "ReactJS",
         "icon": "https://img.icons8.com/external-tal-revivo-color-tal-revivo/48/000000/external-react-a-javascript-library-for-building-user-interfaces-logo-color-tal-revivo.png"
@@ -98,10 +115,6 @@
     {
         "name": "Heroku",
         "icon": "https://img.icons8.com/color/48/000000/heroku.png"
-    },
-    {
-        "name": "Netlify",
-        "icon": "https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/48/000000/external-netlify-a-cloud-computing-company-that-offers-hosting-and-serverless-backend-services-for-static-websites-logo-shadow-tal-revivo.png"
     },
     {
         "name": "DigitalOcean",
