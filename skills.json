@@ -4,6 +4,10 @@
         "icon": "https://img.icons8.com/color/48/000000/python--v1.png"
     },
     {
+        "name": "Machine Learning",
+        "icon": "https://icons8.com/icon/tFtZYfD5boWL/machine-learning"
+    }, 
+    {
         "name": "ReactJS",
         "icon": "https://img.icons8.com/external-tal-revivo-color-tal-revivo/48/000000/external-react-a-javascript-library-for-building-user-interfaces-logo-color-tal-revivo.png"
     },
@@ -114,9 +118,5 @@
     {
         "name": "GitHub",
         "icon": "https://img.icons8.com/glyph-neue/48/ffffff/github.png"
-    },
-    {
-        "name": "WordPress",
-        "icon": "https://img.icons8.com/color/48/000000/wordpress.png"
-    }    
+    }  
 ]
