@@ -13,15 +13,15 @@
     },
      {
         "name": "Data Analysis",
-        "icon": "https://img.icons8.com/?size=80&id=w6TMKJIPnSF0&format=png"
+        "icon": "https://img.icons8.com/?size=48&id=w6TMKJIPnSF0&format=png"
     },
      {
         "name": "Data Preparation",
-        "icon": "https://img.icons8.com/?size=40&id=49731&format=png"
+        "icon": "https://img.icons8.com/?size=48&id=49731&format=png"
     },
      {
         "name": "Data Science",
-        "icon": "https://img.icons8.com/?size=80&id=izgFdRB2AEqe&format=png"
+        "icon": "https://img.icons8.com/?size=48&id=izgFdRB2AEqe&format=png"
     },
      {
         "name": "Computer Vision",
@@ -29,11 +29,11 @@
     },
      {
         "name": "Large Language Models",
-        "icon": "https://img.icons8.com/?size=65&id=13647&format=png&color=000000"
+        "icon": "https://img.icons8.com/?size=48&id=13647&format=png&color=000000"
     },
      {
         "name": "NLP",
-        "icon": "https://img.icons8.com/?size=80&id=TEiLRURnbBpn&format=png"
+        "icon": "https://img.icons8.com/?size=48&id=TEiLRURnbBpn&format=png"
     },
      
      {
@@ -53,8 +53,8 @@
         "icon": "https://img.icons8.com/color/48/000000/nodejs.png"
     },
     {
-        "name": "Redux",
-        "icon": "https://img.icons8.com/color/48/000000/redux.png"
+        "name": "Generative AI",
+        "icon": "https://img.icons8.com/?size=100&id=kTuxVYRKeKEY&format=png&color=000000"
     },
     {
         "name": "Firebase",
