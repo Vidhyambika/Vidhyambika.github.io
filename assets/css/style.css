@@ -462,6 +462,10 @@ header .navbar ul li a:hover {
 .skills {
   min-height: 90vh;
   background: #fff;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
 }
 .skills h2 {
   color: rgb(255, 230, 0);
@@ -504,12 +508,7 @@ header .navbar ul li a:hover {
   text-align: center;
   margin-bottom: 1rem;
 }
-.skills {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 1rem;
-}
+
 /* skills media queries starts*/
 @media screen and (max-width: 600px) {
   .skills .container {
