@@ -1,19 +1,19 @@
-[ 
-     {
-        "name": "NumPy",
-        "icon": "https://img.icons8.com/?size=48&id=aR9CXyMagKIS&format=png"
-    }, 
-    {
-        "name": "Pandas",
-        "icon": "https://img.icons8.com/?size=48&id=xSkewUSqtErH&format=png"
-    }, 
+[  
      {
         "name": "Deep Learning",
         "icon": "https://img.icons8.com/?size=48&id=114322&format=png"
     },
      {
+        "name": "Machine Learning",
+        "icon": "https://img.icons8.com/?size=48&id=QOAoKKAhjzfg&format=png&color=000000"
+    },
+     {
         "name": "Data Analysis",
         "icon": "https://img.icons8.com/?size=48&id=w6TMKJIPnSF0&format=png"
+    },
+     {
+        "name": "Data Visualization",
+        "icon": "https://img.icons8.com/?size=48&id=4Y1Xb0zplmjk&format=png&color=000000"
     },
      {
         "name": "Data Preparation",
@@ -28,14 +28,25 @@
         "icon": "https://img.icons8.com/?size=48&id=U5n0qpPE377X&format=png"
     },
      {
-        "name": "Large Language Models",
+        "name": "LLMs",
         "icon": "https://img.icons8.com/?size=48&id=13647&format=png&color=000000"
+    },
+     {
+        "name": "NumPy",
+        "icon": "https://img.icons8.com/?size=48&id=aR9CXyMagKIS&format=png"
+    }, 
+    {
+        "name": "Pandas",
+        "icon": "https://img.icons8.com/?size=48&id=xSkewUSqtErH&format=png"
     },
      {
         "name": "NLP",
         "icon": "https://img.icons8.com/?size=48&id=TEiLRURnbBpn&format=png"
     },
-     
+     {
+        "name": "Gen AI",
+        "icon": "https://img.icons8.com/?size=48&id=kTuxVYRKeKEY&format=png&color=000000"
+    },
      {
         "name": "Python",
         "icon": "https://img.icons8.com/color/48/000000/python--v1.png"
@@ -51,10 +62,6 @@
     {
         "name": "NodeJS",
         "icon": "https://img.icons8.com/color/48/000000/nodejs.png"
-    },
-    {
-        "name": "Generative AI",
-        "icon": "https://img.icons8.com/?size=48&id=kTuxVYRKeKEY&format=png&color=000000"
     },
     {
         "name": "Firebase",
