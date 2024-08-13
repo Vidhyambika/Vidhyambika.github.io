@@ -1,14 +1,17 @@
 [  
      {
         "name": "Deep Learning",
+        "category": "skills",
         "icon": "https://img.icons8.com/?size=48&id=114322&format=png"
     },
      {
         "name": "Machine Learning",
+        "category": "skills",
         "icon": "https://img.icons8.com/?size=48&id=QOAoKKAhjzfg&format=png"
     },
      {
         "name": "Data Analysis",
+        "category": "skills",
         "icon": "https://img.icons8.com/?size=48&id=w6TMKJIPnSF0&format=png"
     },
      {
@@ -45,10 +48,12 @@
     },
      {
         "name": "Gen AI",
+        "category": "skills",
         "icon": "https://img.icons8.com/?size=48&id=kTuxVYRKeKEY&format=png"
     },
      {
         "name": "Python",
+        "category": "languages",
         "icon": "https://img.icons8.com/color/48/000000/python--v1.png"
     },
     {
