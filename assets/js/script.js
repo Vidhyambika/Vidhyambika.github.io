@@ -80,29 +80,39 @@ var typed = new Typed(".typing-text", {
 // <!-- typed js effect ends -->
 
 async function fetchData(type = "skills") {
-    let response
-    type === "skills" ?
-        response = await fetch("skills.json")
-        :
-        response = await fetch("./projects/projects.json")
+  try {
+    let response;
+    type === "skills"
+      ? response = await fetch("skills.json")
+      : response = await fetch("./projects/projects.json");
+    
+    if (!response.ok) throw new Error('Network response was not ok');
+    
     const data = await response.json();
     return data;
+  } catch (error) {
+    console.error('Fetch error:', error);
+  }
 }
 
 function showSkills(skills) {
-    let skillsContainer = document.getElementById("skillsContainer");
-    let skillHTML = "";
-    skills.forEach(skill => {
-        skillHTML += `
-        <div class="bar">
-              <div class="info">
-                <img src=${skill.icon} alt="skill" />
-                <span>${skill.name}</span>
-              </div>
-            </div>`
-    });
-    skillsContainer.innerHTML = skillHTML;
+  let skillsContainer = document.getElementById("skillsContainer");
+  let skillHTML = "";
+  skills.forEach(skill => {
+    skillHTML += `
+      <div class="bar">
+        <div class="info">
+          <img src=${skill.icon} alt="skill" />
+          <span>${skill.name}</span>
+        </div>
+      </div>`;
+  });
+  skillsContainer.innerHTML = skillHTML;
 }
+
+fetchData().then(data => {
+  showSkills(data);
+});
 
 function showProjects(projects) {
     let projectsContainer = document.querySelector("#work .box-container");
