@@ -502,6 +502,7 @@ header .navbar ul li a:hover {
   align-items: center;
   gap: 1rem;
   margin-top: 1rem;
+  text-align: center;
 }
 .skills .container .bar .info i {
   font-size: 4rem;
