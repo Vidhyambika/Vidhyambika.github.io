@@ -79,6 +79,7 @@ var typed = new Typed(".typing-text", {
 });
 // <!-- typed js effect ends -->
 
+// Fetch data and show skills
 async function fetchData(type = "skills") {
   try {
     let response;
@@ -110,6 +111,14 @@ function showSkills(skills) {
   skillsContainer.innerHTML = skillHTML;
 }
 
+// Initialize ScrollReveal
+const sr = ScrollReveal();
+
+// Apply ScrollReveal to elements
+sr.reveal('.skills .container', { interval: 200 });
+sr.reveal('.skills .container .bar', { delay: 400 });
+
+// Fetch data and show skills
 fetchData().then(data => {
   showSkills(data);
 });
