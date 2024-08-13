@@ -496,22 +496,19 @@ header .navbar ul li a:hover {
   box-shadow: 0 8px 10px rgba(0, 2, 68, 0.8) !important;
   background-color: rgba(0, 0, 0, 0.9) !important;
 }
-.skills .container .bar .info {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 1rem;
-  margin-top: 1rem;
-  text-align: center;
+.skills-category {
+  margin-bottom: 2rem;
 }
-.skills .container .bar .info i {
-  font-size: 4rem;
-}
-.skills .container .bar .info span {
+.skills-category h3 {
   font-size: 2rem;
-  font-weight: 500;
-  font-family: "Poppins";
-  margin-left: 0.5rem;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
 }
 /* skills media queries starts*/
 @media screen and (max-width: 600px) {
