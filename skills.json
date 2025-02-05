@@ -1,17 +1,17 @@
 [  
      {
         "name": "Deep Learning",
-        "category": "skills",
+        "category": "Others",
         "icon": "https://img.icons8.com/?size=48&id=114322&format=png"
     },
      {
         "name": "Machine Learning",
-        "category": "skills",
+        "category": "Others",
         "icon": "https://img.icons8.com/?size=48&id=QOAoKKAhjzfg&format=png"
     },
      {
         "name": "Data Analysis",
-        "category": "skills",
+        "category": "Others",
         "icon": "https://img.icons8.com/?size=48&id=w6TMKJIPnSF0&format=png"
     },
      {
@@ -36,6 +36,7 @@
     },
      {
         "name": "NumPy",
+        "category": "libraries",
         "icon": "https://img.icons8.com/?size=48&id=aR9CXyMagKIS&format=png"
     }, 
     {
@@ -98,30 +99,37 @@
     },
     {
         "name": "HTML5",
+        "category": "programming",
         "icon": "https://img.icons8.com/color/48/000000/html-5--v1.png"
     },
     {
         "name": "CSS3",
+        "category": "programming",
         "icon": "https://img.icons8.com/color/48/000000/css3.png"
     },
     {
         "name": "JavaScript",
+        "category": "programming",
         "icon": "https://img.icons8.com/color/48/000000/javascript--v1.png"
     },
     {
         "name": "Java",
+        "category": "programming",
         "icon": "https://img.icons8.com/color/48/000000/java-coffee-cup-logo--v1.png"
     },
     {
-        "name": "Kotlin",
-        "icon": "https://img.icons8.com/color/48/000000/kotlin.png"
+        "name": "R",
+        "category": "programming",
+        "icon": "https://img.icons8.com/fluency/48/r-project.png"
     },
     {
         "name": "PHP",
+        "category": "programming",
         "icon": "https://img.icons8.com/offices/48/000000/php-logo.png"
     },
     {
         "name": "C++",
+        "category": "programming",
         "icon": "https://img.icons8.com/color/48/000000/c-plus-plus-logo.png"
     },
     {
