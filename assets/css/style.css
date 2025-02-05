@@ -459,56 +459,90 @@ header .navbar ul li a:hover {
 /* about section ends */
 
 /* skills section starts */
-.skills {
-  min-height: 90vh;
-  background: #fff;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 1rem;
+/* Skills Section */
+#skills {
+    text-align: center;
+    padding: 50px 20px;
+    background: #fff;
 }
-.skills h2 {
-  color: rgb(255, 230, 0);
+
+.skill-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
 }
-.skills .heading span {
-  color: rgb(255, 230, 0);
+
+.skill-button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background: linear-gradient(45deg, #6a5acd, #ff69b4);
+    color: white;
+    font-size: 16px;
+    transition: 0.3s;
 }
-.skills .container {
-  background: #fff;
-  color: #fff;
-  border-radius: 1rem;
-  padding: 2rem;
-  width: 90%;
-  margin: auto;
-  margin-top: 2rem;
+
+.skill-button.active {
+    background: #290947;
 }
-.skills .container .row {
-  display: grid;
-  grid-template-columns: repeat(7, 1fr);
-  flex-wrap: wrap;
-  gap: 1.8rem;
+
+.skill-button:hover {
+    background: #8b5e3c;
 }
-.skills .bar {
-  opacity: 0; /* Start invisible */
-  transition: opacity 0.5s ease-in-out; /* Smooth transition */
-  margin-bottom: 15px;
-  padding: 10px;
-  border-radius: 1rem;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-  background: rgba(0, 0, 22, 0.9);
-  transition: 0.2s;
+
+/* Skills Grid */
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); /* 5 items per row */
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
 }
-.skills .bar:hover {
-  box-shadow: 0 8px 10px rgba(0, 2, 68, 0.8) !important;
-  background-color: rgba(255, 255, 255, 1) !important;
+
+/* Individual Skill Card */
+.skill-card {
+    background-color: rgba(41, 9, 71, 0.9); /* Light Mode */
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+    transition: 0.3s;
+    width: 100px;
+    height: 100px; /* Square Shape */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
-.skills-category {
-  margin-bottom: 2rem;
+
+.skill-card img {
+    width: 40px;
+    height: 40px;
 }
-.skills-category h3 {
-  font-size: 2rem;
-  text-align: center;
-  margin-bottom: 1rem;
+
+.skill-card p {
+    color: white;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+/* Dark Mode */
+.dark-theme .skill-card {
+    background-color: rgba(139, 94, 60, 0.9); /* Dark Mode */
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .skills-grid {
+        grid-template-columns: repeat(3, 1fr); /* 3 per row for tablets */
+    }
+}
+
+@media (max-width: 480px) {
+    .skills-grid {
+        grid-template-columns: repeat(2, 1fr); /* 2 per row for mobiles */
+    }
 }
 
 /* skills media queries starts*/
