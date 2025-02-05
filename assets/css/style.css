@@ -500,7 +500,7 @@ header .navbar ul li a:hover {
 }
 .skills .bar:hover {
   box-shadow: 0 8px 10px rgba(0, 2, 68, 0.8) !important;
-  background-color: rgba(0, 0, 0, 0.9) !important;
+  background-color: rgba(255, 255, 255, 1) !important;
 }
 .skills-category {
   margin-bottom: 2rem;
