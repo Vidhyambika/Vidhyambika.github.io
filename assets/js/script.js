@@ -89,20 +89,42 @@ async function fetchData(type = "skills") {
     return data;
 }
 
-function showSkills(skills) {
-    let skillsContainer = document.getElementById("skillsContainer");
-    let skillHTML = "";
-    skills.forEach(skill => {
-        skillHTML += `
-        <div class="bar">
-              <div class="info">
-                <img src=${skill.icon} alt="skill" />
-                <span>${skill.name}</span>
-              </div>
-            </div>`
-    });
-    skillsContainer.innerHTML = skillHTML;
-}
+
+document.addEventListener("DOMContentLoaded", function () {
+    fetch("skills.json")
+        .then(response => response.json())
+        .then(data => {
+            const skillsContainer = document.getElementById("skills-container");
+            const buttons = document.querySelectorAll(".skill-button");
+
+            function displaySkills(category) {
+                skillsContainer.innerHTML = ""; // Clear previous skills
+                const filteredSkills = data.filter(skill => skill.category === category);
+                filteredSkills.forEach(skill => {
+                    const skillCard = document.createElement("div");
+                    skillCard.classList.add("skill-card");
+                    skillCard.innerHTML = `
+                        <img src="${skill.icon}" alt="${skill.name}">
+                        <p>${skill.name}</p>
+                    `;
+                    skillsContainer.appendChild(skillCard);
+                });
+            }
+
+            // Default to first category
+            displaySkills("programming");
+
+            buttons.forEach(button => {
+                button.addEventListener("click", function () {
+                    buttons.forEach(btn => btn.classList.remove("active"));
+                    this.classList.add("active");
+                    displaySkills(this.dataset.category);
+                });
+            });
+        })
+        .catch(error => console.error("Error loading skills:", error));
+});
+
 
 function showProjects(projects) {
     let projectsContainer = document.querySelector("#work .box-container");
@@ -250,37 +272,3 @@ srtop.reveal('.experience .timeline .container', { interval: 400 });
 srtop.reveal('.contact .container', { delay: 400 });
 srtop.reveal('.contact .container .form-group', { delay: 400 });
 
-document.addEventListener("DOMContentLoaded", function () {
-    fetch("skills.json")
-        .then(response => response.json())
-        .then(data => {
-            const skillsContainer = document.getElementById("skills-container");
-            const buttons = document.querySelectorAll(".skill-button");
-
-            function displaySkills(category) {
-                skillsContainer.innerHTML = ""; // Clear previous skills
-                const filteredSkills = data.filter(skill => skill.category === category);
-                filteredSkills.forEach(skill => {
-                    const skillCard = document.createElement("div");
-                    skillCard.classList.add("skill-card");
-                    skillCard.innerHTML = `
-                        <img src="${skill.icon}" alt="${skill.name}">
-                        <p>${skill.name}</p>
-                    `;
-                    skillsContainer.appendChild(skillCard);
-                });
-            }
-
-            // Default to first category
-            displaySkills("programming");
-
-            buttons.forEach(button => {
-                button.addEventListener("click", function () {
-                    buttons.forEach(btn => btn.classList.remove("active"));
-                    this.classList.add("active");
-                    displaySkills(this.dataset.category);
-                });
-            });
-        })
-        .catch(error => console.error("Error loading skills:", error));
-});
