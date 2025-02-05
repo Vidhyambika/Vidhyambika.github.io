@@ -1,4 +1,5 @@
 $(document).ready(function () {
+
     $('#menu').click(function () {
         $(this).toggleClass('fa-times');
         $('.navbar').toggleClass('nav-toggle');
@@ -33,12 +34,13 @@ $(document).ready(function () {
         e.preventDefault();
         $('html, body').animate({
             scrollTop: $($(this).attr('href')).offset().top,
-        }, 500, 'linear');
+        }, 500, 'linear')
     });
 
-    // emailjs to mail contact form data
+    // <!-- emailjs to mail contact form data -->
     $("#contact-form").submit(function (event) {
         emailjs.init("user_TTDmetQLYgWCLzHTDgqxm");
+
         emailjs.sendForm('contact_service', 'template_contact', '#contact-form')
             .then(function (response) {
                 console.log('SUCCESS!', response.status, response.text);
@@ -50,19 +52,24 @@ $(document).ready(function () {
             });
         event.preventDefault();
     });
+    // <!-- emailjs to mail contact form data -->
+
 });
 
-document.addEventListener('visibilitychange', function () {
-    if (document.visibilityState === "visible") {
-        document.title = "Portfolio | Jigar Sable";
-        $("#favicon").attr("href", "assets/images/favicon.png");
-    } else {
-        document.title = "Come Back To Portfolio";
-        $("#favicon").attr("href", "assets/images/favhand.png");
-    }
-});
+document.addEventListener('visibilitychange',
+    function () {
+        if (document.visibilityState === "visible") {
+            document.title = "Portfolio | Jigar Sable";
+            $("#favicon").attr("href", "assets/images/favicon.png");
+        }
+        else {
+            document.title = "Come Back To Portfolio";
+            $("#favicon").attr("href", "assets/images/favhand.png");
+        }
+    });
 
-// typed js effect starts
+
+// <!-- typed js effect starts -->
 var typed = new Typed(".typing-text", {
     strings: ["frontend development", "backend development", "web designing", "android development", "web development"],
     loop: true,
@@ -70,10 +77,16 @@ var typed = new Typed(".typing-text", {
     backSpeed: 25,
     backDelay: 500,
 });
+// <!-- typed js effect ends -->
 
 async function fetchData(type = "skills") {
-    let response = type === "skills" ? await fetch("skills.json") : await fetch("./projects/projects.json");
-    return await response.json();
+    let response
+    type === "skills" ?
+        response = await fetch("skills.json")
+        :
+        response = await fetch("./projects/projects.json")
+    const data = await response.json();
+    return data;
 }
 
 function showSkills(skills) {
@@ -86,7 +99,7 @@ function showSkills(skills) {
                 <img src=${skill.icon} alt="skill" />
                 <span>${skill.name}</span>
               </div>
-            </div>`;
+            </div>`
     });
     skillsContainer.innerHTML = skillHTML;
 }
@@ -94,7 +107,7 @@ function showSkills(skills) {
 function showProjects(projects) {
     let projectsContainer = document.querySelector("#work .box-container");
     let projectHTML = "";
-    projects.slice(0, 10).filter(project => project.category !== "android").forEach(project => {
+    projects.slice(0, 10).filter(project => project.category != "android").forEach(project => {
         projectHTML += `
         <div class="box tilt">
       <img draggable="false" src="/assets/images/projects/${project.image}.png" alt="project" />
@@ -110,26 +123,74 @@ function showProjects(projects) {
           </div>
         </div>
       </div>
-    </div>`;
+    </div>`
     });
     projectsContainer.innerHTML = projectHTML;
-    VanillaTilt.init(document.querySelectorAll(".tilt"), { max: 15 });
-    ScrollReveal().reveal('.work .box', { interval: 200 });
+
+    // <!-- tilt js effect starts -->
+    VanillaTilt.init(document.querySelectorAll(".tilt"), {
+        max: 15,
+    });
+    // <!-- tilt js effect ends -->
+
+    /* ===== SCROLL REVEAL ANIMATION ===== */
+    const srtop = ScrollReveal({
+        origin: 'top',
+        distance: '80px',
+        duration: 1000,
+        reset: true
+    });
+
+    /* SCROLL PROJECTS */
+    srtop.reveal('.work .box', { interval: 200 });
+
 }
 
-fetchData().then(showSkills);
-fetchData("projects").then(showProjects);
+fetchData().then(data => {
+    showSkills(data);
+});
 
-VanillaTilt.init(document.querySelectorAll(".tilt"), { max: 15 });
+fetchData("projects").then(data => {
+    showProjects(data);
+});
 
-// Disable developer mode
+// <!-- tilt js effect starts -->
+VanillaTilt.init(document.querySelectorAll(".tilt"), {
+    max: 15,
+});
+// <!-- tilt js effect ends -->
+
+
+// pre loader start
+// function loader() {
+//     document.querySelector('.loader-container').classList.add('fade-out');
+// }
+// function fadeOut() {
+//     setInterval(loader, 500);
+// }
+// window.onload = fadeOut;
+// pre loader end
+
+// disable developer mode
 document.onkeydown = function (e) {
-    if (e.keyCode == 123 || (e.ctrlKey && e.shiftKey && ['I', 'C', 'J'].includes(String.fromCharCode(e.keyCode))) || (e.ctrlKey && e.keyCode == 'U'.charCodeAt(0))) {
+    if (e.keyCode == 123) {
+        return false;
+    }
+    if (e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)) {
+        return false;
+    }
+    if (e.ctrlKey && e.shiftKey && e.keyCode == 'C'.charCodeAt(0)) {
+        return false;
+    }
+    if (e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0)) {
+        return false;
+    }
+    if (e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)) {
         return false;
     }
 }
 
-// Tawk.to Live Chat
+// Start of Tawk.to Live Chat
 var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
 (function () {
     var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];
@@ -139,9 +200,87 @@ var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
     s1.setAttribute('crossorigin', '*');
     s0.parentNode.insertBefore(s1, s0);
 })();
+// End of Tawk.to Live Chat
 
-// ScrollReveal animations
-const srtop = ScrollReveal({ origin: 'top', distance: '80px', duration: 1000, reset: true });
-srtop.reveal('.home .content h3, .home .content p, .home .content .btn, .home .image, .home .linkedin, .home .github, .home .twitter, .home .telegram, .home .instagram, .home .dev', { interval: 200 });
-srtop.reveal('.about .content h3, .about .content .tag, .about .content p, .about .content .box-container, .about .content .resumebtn', { delay: 200 });
-srtop.reveal('.skills .container, .skills .container .bar, .education .box, .work .box, .experience .timeline, .experience .timeline .container, .contact .container, .contact .container .form-group', { interval: 200 });
+
+/* ===== SCROLL REVEAL ANIMATION ===== */
+const srtop = ScrollReveal({
+    origin: 'top',
+    distance: '80px',
+    duration: 1000,
+    reset: true
+});
+
+/* SCROLL HOME */
+srtop.reveal('.home .content h3', { delay: 200 });
+srtop.reveal('.home .content p', { delay: 200 });
+srtop.reveal('.home .content .btn', { delay: 200 });
+
+srtop.reveal('.home .image', { delay: 400 });
+srtop.reveal('.home .linkedin', { interval: 600 });
+srtop.reveal('.home .github', { interval: 800 });
+srtop.reveal('.home .twitter', { interval: 1000 });
+srtop.reveal('.home .telegram', { interval: 600 });
+srtop.reveal('.home .instagram', { interval: 600 });
+srtop.reveal('.home .dev', { interval: 600 });
+
+/* SCROLL ABOUT */
+srtop.reveal('.about .content h3', { delay: 200 });
+srtop.reveal('.about .content .tag', { delay: 200 });
+srtop.reveal('.about .content p', { delay: 200 });
+srtop.reveal('.about .content .box-container', { delay: 200 });
+srtop.reveal('.about .content .resumebtn', { delay: 200 });
+
+
+/* SCROLL SKILLS */
+srtop.reveal('.skills .container', { interval: 200 });
+srtop.reveal('.skills .container .bar', { delay: 400 });
+
+/* SCROLL EDUCATION */
+srtop.reveal('.education .box', { interval: 200 });
+
+/* SCROLL PROJECTS */
+srtop.reveal('.work .box', { interval: 200 });
+
+/* SCROLL EXPERIENCE */
+srtop.reveal('.experience .timeline', { delay: 400 });
+srtop.reveal('.experience .timeline .container', { interval: 400 });
+
+/* SCROLL CONTACT */
+srtop.reveal('.contact .container', { delay: 400 });
+srtop.reveal('.contact .container .form-group', { delay: 400 });
+
+document.addEventListener("DOMContentLoaded", function () {
+    fetch("skills.json")
+        .then(response => response.json())
+        .then(data => {
+            const skillsContainer = document.getElementById("skills-container");
+            const buttons = document.querySelectorAll(".skill-button");
+
+            function displaySkills(category) {
+                skillsContainer.innerHTML = ""; // Clear previous skills
+                const filteredSkills = data.filter(skill => skill.category === category);
+                filteredSkills.forEach(skill => {
+                    const skillCard = document.createElement("div");
+                    skillCard.classList.add("skill-card");
+                    skillCard.innerHTML = `
+                        <img src="${skill.icon}" alt="${skill.name}">
+                        <p>${skill.name}</p>
+                    `;
+                    skillsContainer.appendChild(skillCard);
+                });
+            }
+
+            // Default to first category
+            displaySkills("programming");
+
+            buttons.forEach(button => {
+                button.addEventListener("click", function () {
+                    buttons.forEach(btn => btn.classList.remove("active"));
+                    this.classList.add("active");
+                    displaySkills(this.dataset.category);
+                });
+            });
+        })
+        .catch(error => console.error("Error loading skills:", error));
+});
