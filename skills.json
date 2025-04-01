@@ -1,37 +1,42 @@
 [  
      {
         "name": "Deep Learning",
-        "category": "Others",
+        "category": "skills",
         "icon": "https://img.icons8.com/?size=48&id=114322&format=png"
     },
      {
         "name": "Machine Learning",
-        "category": "Others",
+        "category": "skills",
         "icon": "https://img.icons8.com/?size=48&id=QOAoKKAhjzfg&format=png"
     },
      {
         "name": "Data Analysis",
-        "category": "Others",
+        "category": "skills",
         "icon": "https://img.icons8.com/?size=48&id=w6TMKJIPnSF0&format=png"
     },
      {
         "name": "Data Visualization",
+        "category": "skills",
         "icon": "https://img.icons8.com/?size=48&id=4Y1Xb0zplmjk&format=png"
     },
      {
         "name": "Data Preparation",
+        "category": "skills",
         "icon": "https://img.icons8.com/?size=48&id=49731&format=png"
     },
      {
         "name": "Data Science",
+        "category": "skills",
         "icon": "https://img.icons8.com/?size=48&id=izgFdRB2AEqe&format=png"
     },
      {
         "name": "Computer Vision",
+        "category": "skills",
         "icon": "https://img.icons8.com/?size=48&id=U5n0qpPE377X&format=png"
     },
      {
         "name": "LLMs",
+        "category": "skills",
         "icon": "https://img.icons8.com/?size=48&id=13647&format=png"
     },
      {
@@ -51,6 +56,7 @@
     },
      {
         "name": "NLP",
+        "category": "skills",
         "icon": "https://img.icons8.com/?size=48&id=TEiLRURnbBpn&format=png"
     },
      {
