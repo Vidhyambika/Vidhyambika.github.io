@@ -40,7 +40,13 @@
         "icon": "https://img.icons8.com/?size=48&id=aR9CXyMagKIS&format=png"
     }, 
     {
+        "name": "Seaborn",
+        "category": "libraries",
+        "icon": "https://svglogos.net/wp-content/uploads/seaborn-icon.svg"
+    }, 
+    {
         "name": "Pandas",
+        "category": "libraries",
         "icon": "https://img.icons8.com/?size=48&id=xSkewUSqtErH&format=png"
     },
      {
