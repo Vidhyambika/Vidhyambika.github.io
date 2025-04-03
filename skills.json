@@ -131,9 +131,24 @@
         "icon": "https://images.seeklogo.com/logo-png/52/1/langchain-logo-png_seeklogo-528369.png"
     },
     {
+        "name": "Hugging Face",
+        "category": "platforms",
+        "icon": "https://registry.npmmirror.com/@lobehub/icons-static-png/1.43.0/files/dark/huggingface-color.png"
+    },
+    {
+        "name": "Hugging Face",
+        "category": "platforms",
+        "icon": "https://registry.npmmirror.com/@lobehub/icons-static-png/1.43.0/files/dark/huggingface-color.png"
+    },
+    {
         "name": "NLTK",
         "category": "libraries",
         "icon": "https://miro.medium.com/v2/resize:fit:592/1*YM2HXc7f4v02pZBEO8h-qw.png"
+    },
+    {
+        "name": "Plotly",
+        "category": "libraries",
+        "icon": "https://avatars.githubusercontent.com/u/5997976?s=280&v=4"
     },
     {
         "name": "Python",
