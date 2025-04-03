@@ -60,19 +60,30 @@
         "icon": "https://s3.amazonaws.com/stackabuse/media/overview-classification-methods-python-scikit-learn-1.png"
     },
     {
-        "name": "Tensorflow",
-        "category": "libraries",
-        "icon": "https://static-00.iconduck.com/assets.00/tensorflow-icon-1911x2048-1m2s54vn.png"
-    },
-    {
         "name": "Keras",
         "category": "libraries",
         "icon": "https://pyimagesearch.com/wp-content/uploads/2020/02/keras_autoencoders_header.png"
     },
+    
     {
-        "name": "PyTorch",
+        "name": "TextBlob",
         "category": "libraries",
-        "icon": "https://static-00.iconduck.com/assets.00/pytorch-icon-1694x2048-jgwjy3ne.png"
+        "icon": "https://textblob.readthedocs.io/en/dev/_static/textblob-logo.png"
+    },
+    {
+        "name": "Hugging Face Transformers",
+        "category": "libraries",
+        "icon": "https://registry.npmmirror.com/@lobehub/icons-static-png/1.43.0/files/dark/huggingface-color.png"
+    },
+    {
+        "name": "NLTK",
+        "category": "libraries",
+        "icon": "https://miro.medium.com/v2/resize:fit:592/1*YM2HXc7f4v02pZBEO8h-qw.png"
+    },
+    {
+        "name": "Plotly",
+        "category": "libraries",
+        "icon": "https://avatars.githubusercontent.com/u/5997976?s=280&v=4"
     },
      {
         "name": "NLP",
@@ -131,24 +142,24 @@
         "icon": "https://images.seeklogo.com/logo-png/52/1/langchain-logo-png_seeklogo-528369.png"
     },
     {
+        "name": "Tensorflow",
+        "category": "tools",
+        "icon": "https://static-00.iconduck.com/assets.00/tensorflow-icon-1911x2048-1m2s54vn.png"
+    },
+    {
+        "name": "PyTorch",
+        "category": "tools",
+        "icon": "https://static-00.iconduck.com/assets.00/pytorch-icon-1694x2048-jgwjy3ne.png"
+    },
+    {
+        "name": "LightGBM",
+        "category": "tools",
+        "icon": "https://user-images.githubusercontent.com/7608904/90947747-e2d40c00-e3fd-11ea-9472-fc79e1a20bd9.png"
+    },
+    {
         "name": "Hugging Face",
         "category": "platforms",
         "icon": "https://registry.npmmirror.com/@lobehub/icons-static-png/1.43.0/files/dark/huggingface-color.png"
-    },
-    {
-        "name": "Hugging Face",
-        "category": "libraries",
-        "icon": "https://registry.npmmirror.com/@lobehub/icons-static-png/1.43.0/files/dark/huggingface-color.png"
-    },
-    {
-        "name": "NLTK",
-        "category": "libraries",
-        "icon": "https://miro.medium.com/v2/resize:fit:592/1*YM2HXc7f4v02pZBEO8h-qw.png"
-    },
-    {
-        "name": "Plotly",
-        "category": "libraries",
-        "icon": "https://avatars.githubusercontent.com/u/5997976?s=280&v=4"
     },
     {
         "name": "Python",
