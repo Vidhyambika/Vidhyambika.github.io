@@ -126,6 +126,16 @@
         "icon": "https://img.icons8.com/color/48/000000/sass.png"
     },
     {
+        "name": "Langchain",
+        "category": "tools",
+        "icon": "https://assets.streamlinehq.com/image/private/w_300,h_300,ar_1/f_auto/v1/icons/logos/langchain-ipuhh4qo1jz5ssl4x0g2a.png/langchain-dp1uxj2zn3752pntqnpfu2.png?_a=DAJFJtWIZAAC"
+    },
+    {
+        "name": "Langchain",
+        "category": "tools",
+        "icon": "https://assets.streamlinehq.com/image/private/w_300,h_300,ar_1/f_auto/v1/icons/logos/langchain-ipuhh4qo1jz5ssl4x0g2a.png/langchain-dp1uxj2zn3752pntqnpfu2.png?_a=DAJFJtWIZAAC"
+    },
+    {
         "name": "Python",
         "category": "programming",
         "icon": "https://img.icons8.com/color/48/000000/python--v1.png"
