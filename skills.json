@@ -128,12 +128,12 @@
     {
         "name": "Langchain",
         "category": "tools",
-        "icon": "https://assets.streamlinehq.com/image/private/w_300,h_300,ar_1/f_auto/v1/icons/logos/langchain-ipuhh4qo1jz5ssl4x0g2a.png/langchain-dp1uxj2zn3752pntqnpfu2.png?_a=DAJFJtWIZAAC"
+        "icon": "https://images.seeklogo.com/logo-png/52/1/langchain-logo-png_seeklogo-528369.png"
     },
     {
-        "name": "Langchain",
-        "category": "tools",
-        "icon": "https://assets.streamlinehq.com/image/private/w_300,h_300,ar_1/f_auto/v1/icons/logos/langchain-ipuhh4qo1jz5ssl4x0g2a.png/langchain-dp1uxj2zn3752pntqnpfu2.png?_a=DAJFJtWIZAAC"
+        "name": "NLTK",
+        "category": "libraries",
+        "icon": "https://miro.medium.com/v2/resize:fit:592/1*YM2HXc7f4v02pZBEO8h-qw.png"
     },
     {
         "name": "Python",
