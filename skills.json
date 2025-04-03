@@ -137,7 +137,7 @@
     },
     {
         "name": "Hugging Face",
-        "category": "platforms",
+        "category": "libraries",
         "icon": "https://registry.npmmirror.com/@lobehub/icons-static-png/1.43.0/files/dark/huggingface-color.png"
     },
     {
