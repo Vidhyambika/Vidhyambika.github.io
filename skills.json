@@ -207,6 +207,11 @@
         "icon": "https://img.icons8.com/offices/48/000000/php-logo.png"
     },
     {
+        "name": "Matlab",
+        "category": "programming",
+        "icon": "https://www.cfm.brown.edu/people/dobrush/am34/Matlab/MatlabLogo.png"
+    }
+    {
         "name": "MongoDB",
         "icon": "https://img.icons8.com/color/48/000000/mongodb.png"
     },
