@@ -39,7 +39,17 @@
         "category": "skills",
         "icon": "https://img.icons8.com/?size=48&id=13647&format=png"
     },
+    {
+        "name": "NLP",
+        "category": "skills",
+        "icon": "https://img.icons8.com/?size=48&id=TEiLRURnbBpn&format=png"
+    },
      {
+        "name": "Gen AI",
+        "category": "skills",
+        "icon": "https://img.icons8.com/?size=48&id=kTuxVYRKeKEY&format=png"
+    },
+    {
         "name": "NumPy",
         "category": "libraries",
         "icon": "https://img.icons8.com/?size=48&id=aR9CXyMagKIS&format=png"
@@ -63,8 +73,7 @@
         "name": "Keras",
         "category": "libraries",
         "icon": "https://pyimagesearch.com/wp-content/uploads/2020/02/keras_autoencoders_header.png"
-    },
-    
+    }, 
     {
         "name": "TextBlob",
         "category": "libraries",
@@ -85,56 +94,46 @@
         "category": "libraries",
         "icon": "https://avatars.githubusercontent.com/u/5997976?s=280&v=4"
     },
-     {
-        "name": "NLP",
-        "category": "skills",
-        "icon": "https://img.icons8.com/?size=48&id=TEiLRURnbBpn&format=png"
-    },
-     {
-        "name": "Gen AI",
-        "category": "skills",
-        "icon": "https://img.icons8.com/?size=48&id=kTuxVYRKeKEY&format=png"
-    },
-     
     {
         "name": "ReactJS",
+        "category": "libraries",
         "icon": "https://img.icons8.com/external-tal-revivo-color-tal-revivo/48/000000/external-react-a-javascript-library-for-building-user-interfaces-logo-color-tal-revivo.png"
     },
     {
-        "name": "ExpressJS",
-        "icon": "https://img.icons8.com/fluency/48/000000/node-js.png"
-    },
-    {
-        "name": "NodeJS",
-        "icon": "https://img.icons8.com/color/48/000000/nodejs.png"
-    },
-    {
-        "name": "Firebase",
-        "icon": "https://img.icons8.com/color/48/000000/firebase.png"
-    },
-    {
-        "name": "Android",
-        "icon": "https://img.icons8.com/fluency/48/000000/android-os.png"
-    },
-    {
         "name": "MaterialUI",
+        "category": "libraries",
         "icon": "https://img.icons8.com/fluency/48/000000/material-ui.png"
     },
     {
         "name": "ChakraUI",
+        "category": "libraries",
         "icon": "https://img.icons8.com/color/48/000000/material-ui.png"
     },
     {
+        "name": "ExpressJS",
+        "category": "tools",
+        "icon": "https://img.icons8.com/fluency/48/000000/node-js.png"
+    },
+    {
+        "name": "NodeJS",
+        "category": "tools",
+        "icon": "https://img.icons8.com/color/48/000000/nodejs.png"
+    },
+    {
+        "name": "Firebase",
+        "category": "tools",
+        "icon": "https://img.icons8.com/color/48/000000/firebase.png"
+    },
+    
+    {
         "name": "TailwindCSS",
+        "category": "tools",
         "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/48px-Tailwind_CSS_Logo.png"
     },
     {
         "name": "Bootstrap",
+        "category": "tools",
         "icon": "https://img.icons8.com/color/48/000000/bootstrap.png"
-    },
-    {
-        "name": "Sass",
-        "icon": "https://img.icons8.com/color/48/000000/sass.png"
     },
     {
         "name": "Langchain",
@@ -155,11 +154,6 @@
         "name": "LightGBM",
         "category": "tools",
         "icon": "https://user-images.githubusercontent.com/7608904/90947747-e2d40c00-e3fd-11ea-9472-fc79e1a20bd9.png"
-    },
-    {
-        "name": "Hugging Face",
-        "category": "platforms",
-        "icon": "https://registry.npmmirror.com/@lobehub/icons-static-png/1.43.0/files/dark/huggingface-color.png"
     },
     {
         "name": "Python",
@@ -246,5 +240,19 @@
     {
         "name": "GitHub",
         "icon": "https://img.icons8.com/glyph-neue/48/ffffff/github.png"
-    }  
+    },
+    {
+        "name": "Sass",
+        "icon": "https://img.icons8.com/color/48/000000/sass.png"
+    },
+    {
+        "name": "Hugging Face",
+        "category": "platforms",
+        "icon": "https://registry.npmmirror.com/@lobehub/icons-static-png/1.43.0/files/dark/huggingface-color.png"
+    },
+    {
+        "name": "Android",
+        "category": "platforms",
+        "icon": "https://img.icons8.com/fluency/48/000000/android-os.png"
+    }
 ]
