@@ -496,9 +496,9 @@ header .navbar ul li a:hover {
 .skills-grid {
     display: grid;
     grid-template-columns: repeat(5, 1fr); /* 5 items per row */
-    gap: 10px;
+    gap: 15px;
     justify-content: center;
-    padding: 20px;
+    padding: 15px;
 }
 
 /* Individual Skill Card */
