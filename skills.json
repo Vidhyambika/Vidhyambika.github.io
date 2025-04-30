@@ -110,6 +110,26 @@
         "icon": "https://img.icons8.com/color/48/000000/material-ui.png"
     },
     {
+        "name": "Langchain",
+        "category": "tools",
+        "icon": "https://images.seeklogo.com/logo-png/52/1/langchain-logo-png_seeklogo-528369.png"
+    },
+    {
+        "name": "Tensorflow",
+        "category": "tools",
+        "icon": "https://static-00.iconduck.com/assets.00/tensorflow-icon-1911x2048-1m2s54vn.png"
+    },
+    {
+        "name": "PyTorch",
+        "category": "tools",
+        "icon": "https://static-00.iconduck.com/assets.00/pytorch-icon-1694x2048-jgwjy3ne.png"
+    },
+    {
+        "name": "LightGBM",
+        "category": "tools",
+        "icon": "https://user-images.githubusercontent.com/7608904/90947747-e2d40c00-e3fd-11ea-9472-fc79e1a20bd9.png"
+    },
+    {
         "name": "ExpressJS",
         "category": "tools",
         "icon": "https://img.icons8.com/fluency/48/000000/node-js.png"
@@ -134,26 +154,6 @@
         "name": "Bootstrap",
         "category": "tools",
         "icon": "https://img.icons8.com/color/48/000000/bootstrap.png"
-    },
-    {
-        "name": "Langchain",
-        "category": "tools",
-        "icon": "https://images.seeklogo.com/logo-png/52/1/langchain-logo-png_seeklogo-528369.png"
-    },
-    {
-        "name": "Tensorflow",
-        "category": "tools",
-        "icon": "https://static-00.iconduck.com/assets.00/tensorflow-icon-1911x2048-1m2s54vn.png"
-    },
-    {
-        "name": "PyTorch",
-        "category": "tools",
-        "icon": "https://static-00.iconduck.com/assets.00/pytorch-icon-1694x2048-jgwjy3ne.png"
-    },
-    {
-        "name": "LightGBM",
-        "category": "tools",
-        "icon": "https://user-images.githubusercontent.com/7608904/90947747-e2d40c00-e3fd-11ea-9472-fc79e1a20bd9.png"
     },
     {
         "name": "Python",
@@ -207,26 +207,32 @@
     }
     {
         "name": "MongoDB",
+        "category": "databases",
         "icon": "https://img.icons8.com/color/48/000000/mongodb.png"
     },
     {
         "name": "MySQL",
+        "category": "databases",
         "icon": "https://img.icons8.com/color/48/000000/mysql-logo.png"
     },
     {
         "name": "PostgreSQL",
+        "category": "databases",
         "icon": "https://img.icons8.com/color/48/000000/postgreesql.png"
     },
     {
         "name": "AWS",
+        "category": "cloud",
         "icon": "https://img.icons8.com/color/48/000000/amazon-web-services.png"
     },
     {
         "name": "Heroku",
+        "category": "cloud",
         "icon": "https://img.icons8.com/color/48/000000/heroku.png"
     },
     {
         "name": "DigitalOcean",
+        "category": "cloud",
         "icon": "https://img.icons8.com/ios-filled/48/0080FF/digitalocean.png"
     },
     {
