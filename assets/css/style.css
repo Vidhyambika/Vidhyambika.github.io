@@ -495,9 +495,10 @@ header .navbar ul li a:hover {
 /* Skills Grid */
 .skills-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    grid-template-columns: repeat(5, 1fr); /* 5 items per row */
     gap: 20px;
-    padding: 20px;
+    justify-content: center;
+    padding: 10px;
 }
 
 /* Individual Skill Card */
