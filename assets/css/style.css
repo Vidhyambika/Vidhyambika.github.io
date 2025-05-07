@@ -509,7 +509,8 @@ header .navbar ul li a:hover {
     text-align: center;
     transition: 0.3s;
     width: 100px;
-    height: 100px; /* Square Shape */
+    max-width: 100px;
+    aspect-ratio: 1; /* Maintains square shape */
     display: flex;
     flex-direction: column;
     align-items: center;
