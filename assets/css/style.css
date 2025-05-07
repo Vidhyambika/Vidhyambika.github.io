@@ -503,14 +503,14 @@ header .navbar ul li a:hover {
 
 /* Individual Skill Card */
 .skill-card {
-    background-color: rgba(41, 9, 71, 0.9); /* Light Mode */
+    background-color: rgba(41, 9, 71, 0.9);
     border-radius: 10px;
     padding: 15px;
     text-align: center;
     transition: 0.3s;
-    width: 100px;
+    width: 100%;
     max-width: 100px;
-    aspect-ratio: 1; /* Maintains square shape */
+    aspect-ratio: 1 / 1; /* Keeps square shape */
     display: flex;
     flex-direction: column;
     align-items: center;
