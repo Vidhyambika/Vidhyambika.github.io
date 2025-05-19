@@ -126,6 +126,7 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 
+
 function showProjects(projects) {
     let projectsContainer = document.querySelector("#work .box-container");
     let projectHTML = "";
