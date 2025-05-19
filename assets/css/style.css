@@ -503,14 +503,13 @@ header .navbar ul li a:hover {
 
 /* Individual Skill Card */
 .skill-card {
-    background-color: rgba(41, 9, 71, 0.9);
+    background-color: rgba(41, 9, 71, 0.9); /* Light Mode */
     border-radius: 10px;
     padding: 15px;
     text-align: center;
     transition: 0.3s;
-    width: 100%;
-    max-width: 100px;
-    aspect-ratio: 1 / 1; /* Keeps square shape */
+    width: 100px;
+    height: 100px; /* Square Shape */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -545,6 +544,7 @@ header .navbar ul li a:hover {
         grid-template-columns: repeat(2, 1fr); /* 2 per row for mobiles */
     }
 }
+
 
 /* skills media queries starts*/
 @media screen and (max-width: 600px) {
