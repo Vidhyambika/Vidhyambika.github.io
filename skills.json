@@ -102,12 +102,12 @@
     {
         "name": "MaterialUI",
         "category": "libraries",
-        "icon": "https://static-00.iconduck.com/assets.00/material-ui-icon-2048x1626-on580ia9.png"
+        "icon": "https://img.icons8.com/color/48/000000/material-ui.png"
     },
     {
         "name": "ChakraUI",
         "category": "libraries",
-        "icon": "https://img.icons8.com/color/48/000000/material-ui.png"
+        "icon": "https://www.coffeeclass.io/logos/chakra-ui.png"
     },
     {
         "name": "Langchain",
