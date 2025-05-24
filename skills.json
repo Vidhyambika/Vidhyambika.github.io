@@ -236,18 +236,22 @@
     },
     {
         "name": "jQuery",
+        "category": "libraries",
         "icon": "https://img.icons8.com/ios-filled/48/1169ae/jquery.png"
     },
     {
         "name": "Git VCS",
+        "category": "tools",
         "icon": "https://img.icons8.com/color/48/000000/git.png"
     },
     {
         "name": "GitHub",
+        "category": "platforms",
         "icon": "https://img.icons8.com/glyph-neue/48/ffffff/github.png"
     },
     {
         "name": "Sass",
+        "category": "tools",
         "icon": "https://img.icons8.com/color/48/000000/sass.png"
     },
     {
