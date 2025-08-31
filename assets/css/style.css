@@ -458,6 +458,20 @@ header .navbar ul li a:hover {
 /* about media queries ends*/
 /* about section ends */
 
+#about-particles {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+.about .row, .about .heading {
+  position: relative;
+  z-index: 1;
+}
+
+
 /* skills section starts */
 /* Skills Section */
 #skills {
