@@ -59,30 +59,32 @@ header .logo {
   color: #2506ad;
 }
 
-/* ==================== HOME ==================== */
+/* ==================== HOME SECTION ==================== */
 .home {
   position: relative;
-  min-height: 100vh;
+  height: 100vh;               /* full screen height */
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 50px 10%;
-  overflow: hidden;
+  overflow: hidden;            /* keeps video inside */
 }
 
-/* Background video */
+/* Video Background */
 #home-video {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  object-fit: cover;
-  z-index: 0;
+  object-fit: cover;           /* crops video properly */
+  z-index: 0;                  /* behind everything */
 }
 
+/* Home Content & Image (above video) */
 .home .content,
-.home .image {
+.home .image,
+.home .socials {
   position: relative;
   z-index: 1;
 }
@@ -116,7 +118,7 @@ header .logo {
   background: #1a0485;
 }
 
-/* Social Icons */
+/* ==================== SOCIAL ICONS ==================== */
 .socials {
   margin-top: 20px;
 }
@@ -141,7 +143,7 @@ header .logo {
   box-shadow: 0 4px 10px rgba(0,0,0,0.15);
   transition: all 0.3s ease;
   position: relative;
-  z-index: 1; /* keep above video */
+  z-index: 1; /* above video */
 }
 
 .social-icons li a:hover {
@@ -149,6 +151,7 @@ header .logo {
   color: #fff;
   transform: translateY(-3px);
 }
+
 
 /* ==================== ABOUT ==================== */
 .about {
