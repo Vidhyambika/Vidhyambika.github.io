@@ -131,3 +131,19 @@ particlesJS('particles-js',
   }
 
 );
+
+particlesJS('about-particles', {
+  "particles": {
+    "number": { "value": 60, "density": { "enable": true, "value_area": 800 } },
+    "color": { "value": "#2506ad" },
+    "shape": { "type": "circle" },
+    "opacity": { "value": 0.5 },
+    "size": { "value": 4, "random": true },
+    "line_linked": { "enable": true, "distance": 150, "color": "#2506ad", "opacity": 0.4, "width": 1 },
+    "move": { "enable": true, "speed": 2 }
+  },
+  "interactivity": {
+    "events": { "onhover": { "enable": true, "mode": "repulse" } }
+  },
+  "retina_detect": true
+});
