@@ -319,7 +319,7 @@ header .logo {
 /* Heading */
 #skills .heading {
     font-size: 2.5rem;
-    color: #FCE205; /* Make heading visible on white background */
+    color: #E6E6FA; /* Make heading visible on white background */
     margin-bottom: 30px;
 }
 
@@ -461,7 +461,7 @@ header .logo {
   margin-top: 2rem;
   overflow: hidden;
   transition: 0.3s;
-  background: #fcfcfc;
+  background: #FCE205;
 }
 
 .education .box-container .box:hover {
