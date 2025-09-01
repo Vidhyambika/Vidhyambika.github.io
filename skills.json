@@ -117,12 +117,12 @@
     {
         "name": "Tensorflow",
         "category": "tools",
-        "icon": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.icon-icons.com%2Ficons2%2F2699%2FPNG%2F512%2Ftensorflow_logo_icon_170598.png&f=1&nofb=1&ipt=cbcc6fd252d3d0b5b7b37b433eec1534c1a6c16aae4a7ae9b18641be0666b1fd"
+        "icon": "https://img.icons8.com/?size=100&id=n3QRpDA7KZ7P&format=png&color=000000"
     },
     {
         "name": "PyTorch",
         "category": "tools",
-        "icon": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fblog.paperspace.com%2Fcontent%2Fimages%2F2019%2F10%2Fpytorch-logo-1.png&f=1&nofb=1&ipt=676997c95c3061c6ab2f3b3a6fbceae03df7af599fa38093bf429f1ba33c1cd9"
+        "icon": "https://img.icons8.com/?size=100&id=jH4BpkMnRrU5&format=png&color=000000"
     },
     {
         "name": "LightGBM",
