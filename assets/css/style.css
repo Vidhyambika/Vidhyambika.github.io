@@ -466,7 +466,7 @@ header .logo {
 .education .box-container .box {
   display: flex;
   flex-direction: row;
-  width: 70%;
+  width: 100%;
   border-radius: 0.5rem;
   box-shadow: 0.2rem 0.5rem 1rem rgba(0, 0, 0, 0.15);
   text-align: center;
