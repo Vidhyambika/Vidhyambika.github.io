@@ -162,8 +162,8 @@ header .logo {
 /* ==================== ABOUT ==================== */
 .about {
   position: relative;
-  padding: 80px 10%;
-  background: #f9f9f9;
+  padding: 4rem 10%;
+  background: #fff; /* original white background */
   overflow: hidden;
 }
 
@@ -194,47 +194,115 @@ header .logo {
 .about .row {
   display: flex;
   flex-wrap: wrap;
+  gap: 2rem;
   align-items: center;
-  gap: 40px;
+  padding: 0; /* padding handled by parent */
+}
+
+/* Image Section */
+.about .row .image {
+  flex: 1 1 35rem;
+  text-align: center;
 }
 
 .about .row .image img {
-  width: 250px;
-  border-radius: 12px;
+  width: 30rem;
+  height: auto;
+  border-radius: 5%;
+  margin: 4rem;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.6);
+  mix-blend-mode: luminosity;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.about .row .image img:hover {
+  mix-blend-mode: normal;
+}
+
+/* Content Section */
+.about .row .content {
+  flex: 1 1 45rem;
+  padding: 3rem;
 }
 
 .about .row .content h3 {
-  font-size: 1.8rem;
-  margin-bottom: 10px;
+  color: #1b1b1b;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
 }
 
 .about .tag {
   display: inline-block;
-  margin-bottom: 15px;
-  padding: 6px 14px;
-  background: #2506ad;
+  font-size: 1.4rem;
   color: #fff;
+  background: #2506ad;
+  font-weight: 600;
+  padding: 8px 16px;
   border-radius: 20px;
-  font-size: 0.9rem;
+  margin-bottom: 1.5rem;
 }
 
 .about p {
-  margin-bottom: 20px;
-  font-size: 1rem;
+  font-size: 1.5rem;
+  font-family: "Nunito", sans-serif;
+  font-weight: 600;
   color: #444;
+  margin-bottom: 2rem;
+}
+
+/* Resume Button */
+.resumebtn {
+  margin-top: 3rem;
 }
 
 .resumebtn .btn {
-  padding: 10px 20px;
+  padding: 1.7rem 3rem;
+  border-radius: 0.5em;
   background: #2506ad;
   color: #fff;
-  border-radius: 8px;
+  box-shadow: 0px 5px 10px rgba(48, 68, 247, 0.6);
+  font-family: "Nunito", sans-serif;
+  transition: 0.3s;
   text-decoration: none;
-  transition: background 0.3s ease;
+}
+
+.resumebtn .btn span {
+  font-weight: 600;
+  font-size: 1.8rem;
+  letter-spacing: 0.1rem;
+}
+
+.resumebtn .btn i {
+  margin-left: 0.3rem;
+  font-size: 1.2rem;
+  transition: 0.3s;
 }
 
 .resumebtn .btn:hover {
-  background: #1a0485;
+  background: #1a047e;
+}
+
+.resumebtn .btn:hover i {
+  transform: translateX(5px);
+}
+
+/* Responsive Design */
+@media screen and (max-width: 900px) {
+  .about .row {
+    flex-direction: column;
+    gap: 2rem;
+  }
+  
+  .about .row .image img {
+    width: 80%;
+    margin: 2rem auto;
+    mix-blend-mode: normal;
+  }
+
+  .about .row .content {
+    padding: 1rem;
+  }
 }
 
 
