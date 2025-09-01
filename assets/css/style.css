@@ -183,13 +183,14 @@ header .logo {
 }
 
 .about .heading {
-  font-size: 2.5rem;
+  font-size: 3rem;
   margin-bottom: 40px;
-  color: #1b1b1b; /* Dark color for About text */
+  color: #1b1b1b; /* Dark color for "About" */
+  font-weight: 700;
 }
 
 .about .heading span {
-  color: #2506ad;
+  color: #2506ad; /* Accent color for "Me" */
 }
 
 .about .row {
@@ -208,17 +209,25 @@ header .logo {
   width: 100%;
   max-width: 300px;
   border-radius: 12px;
-  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.about .row .image img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
 }
 
 .about .row .content {
   flex: 1 1 55%;
+  padding: 10px 20px;
 }
 
 .about .row .content h3 {
   font-size: 2rem;
   margin-bottom: 10px;
-  color: #1b1b1b;
+  color: #111;
 }
 
 .about .tag {
@@ -228,14 +237,19 @@ header .logo {
   background: #2506ad;
   color: #fff;
   border-radius: 20px;
-  font-size: 1rem;
+  font-size: 0.9rem;
+  font-weight: 600;
 }
 
 .about p {
   margin-bottom: 25px;
   font-size: 1rem;
   color: #444;
-  line-height: 1.6;
+  line-height: 1.7;
+}
+
+.resumebtn {
+  margin-top: 20px;
 }
 
 .resumebtn .btn {
@@ -244,6 +258,8 @@ header .logo {
   color: #fff;
   border-radius: 8px;
   text-decoration: none;
+  font-weight: 600;
+  font-size: 1rem;
   transition: background 0.3s ease, transform 0.3s ease;
 }
 
@@ -252,20 +268,42 @@ header .logo {
   transform: translateY(-2px);
 }
 
-/* Responsive layout */
+/* ==================== MEDIA QUERIES ==================== */
 @media screen and (max-width: 900px) {
   .about .row {
     flex-direction: column;
     text-align: center;
   }
-
-  .about .row .image,
+  
   .about .row .content {
-    flex: 1 1 100%;
+    padding: 0;
+  }
+  
+  .about .row .image img {
+    max-width: 250px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .about {
+    padding: 50px 5%;
+  }
+
+  .about .heading {
+    font-size: 2.2rem;
   }
 
   .about .row .image img {
-    max-width: 250px;
+    max-width: 200px;
+  }
+
+  .about .row .content h3 {
+    font-size: 1.5rem;
+  }
+
+  .resumebtn .btn {
+    padding: 10px 20px;
+    font-size: 0.9rem;
   }
 }
 
