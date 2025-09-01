@@ -316,6 +316,18 @@ header .logo {
     background: #fff;
 }
 
+/* Heading */
+#skills .heading {
+    font-size: 2.5rem;
+    color: #2506ad; /* Make heading visible on white background */
+    margin-bottom: 30px;
+}
+
+#skills .heading span {
+    color: #ff69b4; /* Optional accent for span */
+}
+
+/* Skill Buttons */
 .skill-buttons {
     display: flex;
     justify-content: center;
