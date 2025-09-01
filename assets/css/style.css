@@ -447,7 +447,7 @@ header .logo {
 }
 
 .education .qoute {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   text-align: center;
   font-family: "Nunito", sans-serif; 
   font-weight: 600;
@@ -466,25 +466,27 @@ header .logo {
 .education .box-container .box {
   display: flex;
   flex-direction: row;
-  width: 80%;
+  width: 70%;
   border-radius: 0.5rem;
   box-shadow: 0.2rem 0.5rem 1rem rgba(0, 0, 0, 0.15);
   text-align: center;
   position: relative;
-  margin-top: 2rem;
+  margin-top: 1.5rem;
   overflow: hidden;
   transition: 0.3s;
   background: rgb(252, 252, 252);
+  min-height: 160px;
 }
 
 .education .box-container .box:hover {
-  transform: scale(1.03);
+  transform: scale(1.02);
   box-shadow: 1rem 0.5rem 1.2rem rgba(0, 0, 0, 0.25);
 }
 
 .education .box-container .box .image {
-  flex: 1 1 20rem;
-  width: 100%;
+  flex: 0 0 160px; /* 🔹 fixed smaller image width */
+  height: 120px;   /* 🔹 fixed smaller image height */
+  overflow: hidden;
 }
 
 .education .box-container .box img {
@@ -498,13 +500,13 @@ header .logo {
   flex: 1 1 70rem;
   display: flex;
   flex-direction: column;
-  padding: 1rem;
+  padding: 0.8   rem;
   flex-wrap: wrap;
   position: relative;
 }
 
 .education .box-container .box .content h3 {
-  font-size: 2.5rem;
+  font-size: 1.4rem;
   color: #012970;
   font-weight: 600;
   margin-left: 1rem;
@@ -513,14 +515,14 @@ header .logo {
 }
 
 .education .box-container .box .content p {
-  font-size: 1.5rem;
+  font-size: 1rem;
   margin-left: 1rem;
   color: #495057;
   text-align: left;
 }
 
 .education h4 {
-  font-size: 2rem;
+  font-size:       1.2rem;
   color: rgb(34, 109, 0);
   text-align: left;
   margin: 1rem;
