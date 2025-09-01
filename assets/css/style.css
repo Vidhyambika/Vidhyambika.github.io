@@ -163,7 +163,7 @@ header .logo {
 .about {
   position: relative;
   padding: 80px 10%;
-  background: #191970;
+  background: #f9f9f9;
   overflow: hidden;
 }
 
@@ -213,7 +213,7 @@ header .logo {
   margin-bottom: 15px;
   padding: 6px 14px;
   background: #2506ad;
-  color: #fff;
+  color: #000000;
   border-radius: 20px;
   font-size: 0.9rem;
 }
