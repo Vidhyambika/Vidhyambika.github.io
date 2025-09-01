@@ -484,9 +484,8 @@ header .logo {
 }
 
 .education .box-container .box .image {
-  flex: 0 0 160px; /* 🔹 fixed smaller image width */
-  height: 120px;   /* 🔹 fixed smaller image height */
-  overflow: hidden;
+  flex: 1 1 20rem; 
+  width: 100%;
 }
 
 .education .box-container .box img {
@@ -500,7 +499,7 @@ header .logo {
   flex: 1 1 70rem;
   display: flex;
   flex-direction: column;
-  padding: 0.8   rem;
+  padding: 1rem;
   flex-wrap: wrap;
   position: relative;
 }
@@ -515,14 +514,14 @@ header .logo {
 }
 
 .education .box-container .box .content p {
-  font-size: 1rem;
+  font-size: 1.2rem;
   margin-left: 1rem;
   color: #495057;
   text-align: left;
 }
 
 .education h4 {
-  font-size:       1.2rem;
+  font-size:       1.5rem;
   color: rgb(34, 109, 0);
   text-align: left;
   margin: 1rem;
