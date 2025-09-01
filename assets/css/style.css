@@ -434,11 +434,24 @@ header .logo {
   min-height: 80vh;
 }
 
+.education .heading {
+  text-align: center;
+  font-size: 2.2rem;
+  color: #012970;
+  font-family: "Nunito", sans-serif;
+  margin-bottom: 1rem;
+}
+
+.education .heading span {
+  color: #0056d2; /* highlight word */
+}
+
 .education .qoute {
   font-size: 1.5rem;
   text-align: center;
-  font-family: "Nunito", sans-serif;
+  font-family: "Nunito", sans-serif; 
   font-weight: 600;
+  color: #6c757d; /* softer gray */
   margin-top: 0.5rem;
 }
 
@@ -455,7 +468,7 @@ header .logo {
   flex-direction: row;
   width: 80%;
   border-radius: 0.5rem;
-  box-shadow: 0.2rem 0.5rem 1rem rgba(0, 0, 0, 0.2);
+  box-shadow: 0.2rem 0.5rem 1rem rgba(0, 0, 0, 0.15);
   text-align: center;
   position: relative;
   margin-top: 2rem;
@@ -466,7 +479,7 @@ header .logo {
 
 .education .box-container .box:hover {
   transform: scale(1.03);
-  box-shadow: 1rem 0.5rem 1.2rem rgba(0, 0, 0, 0.3);
+  box-shadow: 1rem 0.5rem 1.2rem rgba(0, 0, 0, 0.25);
 }
 
 .education .box-container .box .image {
@@ -502,6 +515,7 @@ header .logo {
 .education .box-container .box .content p {
   font-size: 1.5rem;
   margin-left: 1rem;
+  color: #495057;
   text-align: left;
 }
 
