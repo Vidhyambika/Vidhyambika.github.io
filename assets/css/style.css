@@ -568,11 +568,11 @@ header .logo {
   background: linear-gradient(to bottom, #000031, #00002c);
 }
 .work h2 {
-  color: #fff;
+  color: #004D40;
   padding: 1rem;
 }
 .work .heading span {
-  color: rgb(255, 230, 0);
+  color: #1DE9B6;
 }
 .work .box-container {
   display: flex;
