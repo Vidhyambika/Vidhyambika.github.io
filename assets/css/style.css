@@ -475,7 +475,7 @@ header .logo {
   overflow: hidden;
   transition: 0.3s;
   background: rgb(252, 252, 252);
-  min-height: 140px;
+  min-height: 130px;
 }
 
 .education .box-container .box:hover {
