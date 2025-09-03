@@ -431,7 +431,7 @@ header .logo {
 /* ==================== EDUCATION ==================== */
 .education {
   background: #e5ecfb;
-  min-height: 180px;
+  min-height: 200px;
 }
 
 .education .heading {
@@ -475,7 +475,7 @@ header .logo {
   overflow: hidden;
   transition: 0.3s;
   background: rgb(252, 252, 252);
-  min-height: 130px;
+  min-height: 120px;
 }
 
 .education .box-container .box:hover {
