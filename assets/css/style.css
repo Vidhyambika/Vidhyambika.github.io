@@ -702,6 +702,12 @@ header .logo {
   margin-left: -3px;
   z-index: -2;
 }
+
+.experience {
+  background: #1F1F1F; /* or any dark/gradient color you want */
+  padding: 80px 0; /* optional spacing */
+}
+
 .experience .container {
   padding: 10px 40px;
   position: relative;
