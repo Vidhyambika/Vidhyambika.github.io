@@ -431,7 +431,7 @@ header .logo {
 /* ==================== EDUCATION ==================== */
 .education {
   background: #e5ecfb;
-  min-height: 80vh;
+  min-height: 160px;
 }
 
 .education .heading {
