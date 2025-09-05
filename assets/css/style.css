@@ -691,11 +691,11 @@ header .logo {
   max-width: 1200px;
   margin: 0 auto;
 }
-.experience .timeline::after {
+.experience .timeline::after { /*vertical line */
   content: "";
   position: absolute;
   width: 6px;
-  background: #020133;
+  background: #F4ECF7;
   top: 0;
   bottom: 0;
   left: 50%;
