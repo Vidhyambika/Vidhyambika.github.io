@@ -54,7 +54,7 @@ document.addEventListener('visibilitychange',
 
 // <!-- typed js effect starts -->
 var typed = new Typed(".typing-text", {
-    strings: ["Artificial Intelligence (AI)", "Blockchain", "Internet of Things (IoT)", "Full-Stack", "Cybersecurity", "Data Science", "Domain Expertise", "Ethical Hacking", "Math"],
+    strings: ["Artificial Intelligence (AI)", "Blockchain", "Internet of Things (IoT)", "Full-Stack", "Cybersecurity", "Data Science", "Domain Expertise", "Ethical Hacking", "Math", "Quantum Computing"],
     loop: true,
     typeSpeed: 50,
     backSpeed: 25,
