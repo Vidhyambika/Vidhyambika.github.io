@@ -569,7 +569,7 @@ header .logo {
 }
 .work h2 {
   color: #33C2FE;
-  padding: 1rem;
+  padding: 2.2rem;
 }
 .work .heading span {
   color: #9CF9FF;
@@ -706,6 +706,15 @@ header .logo {
 .experience {
   background: #1F1F1F; /* or any dark/gradient color you want */
   padding: 80px 0; /* optional spacing */
+}
+
+.experience h2 {
+  color: #F88379;  /* pick your color */
+  font-size: 2.5rem; /* increase or decrease as needed */
+  text-align: left; /* optional: center the heading */
+  margin-bottom: 2rem; /* spacing below heading */
+  font-weight: 700;   /* make it bold */
+  font-family: "Nunito", sans-serif; /* optional font */
 }
 
 .experience .container {
