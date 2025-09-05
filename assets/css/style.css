@@ -882,7 +882,9 @@ header .logo {
 .more-about .heading {
   font-size: 2.5rem;
   margin-bottom: 20px;
-  color: #344E41
+  background: linear-gradient(to right, #FF6F61, #344E41);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .more-about p {
