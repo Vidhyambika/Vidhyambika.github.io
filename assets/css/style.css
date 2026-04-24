@@ -815,6 +815,38 @@ header .logo {
   transition: all 0.35s ease;
 }
 
+/* ===== PARTICLE GLOW EFFECT ===== */
+.exp-card {
+  position: relative;
+  overflow: hidden;
+}
+
+.exp-card::before {
+  content: '';
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+
+  background: radial-gradient(circle, rgba(201,168,76,0.25) 2px, transparent 2px);
+  background-size: 40px 40px;
+
+  opacity: 0;
+  transition: opacity 0.4s ease;
+  pointer-events: none;
+}
+
+.exp-card:hover::before {
+  opacity: 1;
+  animation: particleMove 6s linear infinite;
+}
+
+@keyframes particleMove {
+  from { transform: translate(0,0); }
+  to { transform: translate(40px, 40px); }
+}
+
 /* 🔥 Hover interaction */
 .exp-item:hover .exp-card {
   transform: translateX(8px);
