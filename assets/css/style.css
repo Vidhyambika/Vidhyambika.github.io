@@ -90,14 +90,10 @@ header .logo {
 }
 
 .home .content h2 {
-  font-family: 'Playfair Display', serif;
-  font-size: 3.5rem;
-  font-weight: 800;
-  line-height: 1.2;
-  letter-spacing: -1px;
-  background: linear-gradient(90deg, #ffffff, #00bfff);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  font-size: 2.8rem;
+  color: #f5f5f5;              /* light text */
+  font-weight: 600;
+  text-shadow: 0 0 8px rgba(0, 0, 0, 0.8); /* glow for contrast */
 }
 
 .home .content h2 span {
@@ -111,21 +107,20 @@ header .logo {
   text-shadow: 0 0 6px rgba(0, 0, 0, 0.6);
 }
 
-
 .home .btn {
-  display: inline-block;
-  padding: 12px 24px;
-  background: #00bfff;
-  color: #111;
-  border-radius: 8px;
-  text-decoration: none;
-  font-weight: 500;
+  padding: 14px 30px;
+  background: linear-gradient(135deg, #00bfff, #0077ff);
+  color: white;
+  border-radius: 50px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  box-shadow: 0 10px 25px rgba(0,191,255,0.4);
   transition: all 0.3s ease;
 }
 
 .home .btn:hover {
-  background: #0099cc;
-  color: #fff;
+  transform: translateY(-3px) scale(1.05);
+  box-shadow: 0 15px 35px rgba(0,191,255,0.6);
 }
 
 
