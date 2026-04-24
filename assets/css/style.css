@@ -113,19 +113,19 @@ header .logo {
 
 
 .home .btn {
-  padding: 14px 30px;
-  background: linear-gradient(135deg, #00bfff, #0077ff);
-  color: white;
-  border-radius: 50px;
-  font-weight: 600;
-  letter-spacing: 0.5px;
-  box-shadow: 0 10px 25px rgba(0,191,255,0.4);
+  display: inline-block;
+  padding: 12px 24px;
+  background: #00bfff;
+  color: #111;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 500;
   transition: all 0.3s ease;
 }
 
 .home .btn:hover {
-  transform: translateY(-3px) scale(1.05);
-  box-shadow: 0 15px 35px rgba(0,191,255,0.6);
+  background: #0099cc;
+  color: #fff;
 }
 
 
