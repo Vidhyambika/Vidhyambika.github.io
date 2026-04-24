@@ -864,48 +864,27 @@ header .logo {
 /* experience section ends */
 
 /* more about section ends */
-.more-about {
-  padding: 80px 0;
-  text-align: center;
-  background-color: #f5f5f5; /* light background to differentiate */
-}
+/* ===== MORE ABOUT ===== */
 
-.more-about .heading {
-  font-size: 2.5rem;
-  margin-bottom: 20px;
-  color: #344E41;
-}
-
-.more-about p {
-  font-size: 1.1rem;
-  margin-bottom: 40px;
-  color: #555;
-}
-
-.buttons-container {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
+.more-about { background: #f5f5f5; color: black; padding: 80px 5%; }
+.more-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
   gap: 20px;
 }
 
-.more-btn {
-  padding: 15px 30px;
-  font-size: 1rem;
-  color: #fff;
-  background-color: #000080;
-  border-radius: 8px;
+.more-card {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
   text-decoration: none;
-  transition: all 0.3s ease;
-  display: inline-flex;
-  align-items: center;
-  gap: 10px;
+  color: black;
+  transition: 0.3s;
 }
+.more-card:hover { transform: translateY(-5px); }
 
-.more-btn:hover {
-  background-color: #1a1aff;
-  transform: translateY(-3px);
-}
+.more-card-title { font-weight: bold; }
+.more-card-desc { font-size: 14px; color: gray; }
 /* more about section ends */
 
 /* footer section starts */
