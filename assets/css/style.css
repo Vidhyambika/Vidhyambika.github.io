@@ -688,183 +688,175 @@ header .logo {
 
 /* experience section starts */
 
-/* ================= EXPERIENCE SECTION ================= */
+/* ================= EXPERIENCE SECTION (UPGRADED) ================= */
 
 .experience {
+  background: #0d0d18;
+  padding: 100px 5%;
   position: relative;
-  padding: 100px 10%;
-  background: radial-gradient(circle at top, #0a0a0a, #000);
   overflow: hidden;
 }
 
-/* decorative number */
+/* 🔥 Decorative big number */
 .exp-deco-num {
   position: absolute;
   top: 40px;
-  left: 40px;
-  font-size: 80px;
+  right: 5%;
+  font-size: clamp(8rem, 15vw, 14rem);
   font-weight: 900;
-  color: rgba(255,255,255,0.05);
-  font-family: 'Playfair Display', serif;
+
+  color: transparent;
+  -webkit-text-stroke: 1px rgba(201,168,76,0.2);
+  text-shadow: 0 0 40px rgba(201,168,76,0.15);
+
+  opacity: 0.5;
+  pointer-events: none;
 }
 
-/* header */
+/* 🔥 Header */
 .exp-header {
-  margin-bottom: 60px;
+  margin-bottom: 70px;
+  position: relative;
+  z-index: 2;
 }
 
+/* 🔥 Label */
 .section-label {
   color: #c9a84c;
-  font-size: 13px;
+  font-size: 11px;
   letter-spacing: 3px;
-  font-family: 'DM Sans', sans-serif;
+  text-transform: uppercase;
+  border: 1px solid rgba(201,168,76,0.3);
+  padding: 5px 14px;
+  border-radius: 20px;
+  display: inline-block;
 }
 
-/* 🔥 MAIN TITLE */
+/* 🔥 Title (3D + premium font) */
 .section-title {
-  font-size: 48px;
-  font-weight: 900;
   font-family: 'Playfair Display', serif;
-  line-height: 1.2;
+  font-size: clamp(2.5rem, 5vw, 4rem);
+  font-weight: 900;
+  line-height: 1.1;
+  margin-top: 20px;
+
   color: #fff;
+
+  text-shadow:
+    1px 1px 0 #c9a84c,
+    2px 2px 0 #c9a84c,
+    3px 3px 0 #c9a84c,
+    4px 4px 12px rgba(0,0,0,0.6);
+
+  transform: perspective(500px) rotateX(8deg);
+
+  animation: floatText 4s ease-in-out infinite;
 }
 
 .section-title em {
-  font-style: normal;
   color: #c9a84c;
-
-  /* glow effect */
-  text-shadow: 0 0 12px rgba(201,168,76,0.4);
+  font-style: italic;
 }
 
-/* timeline */
+/* 🔥 Floating animation */
+@keyframes floatText {
+  0%,100% { transform: perspective(500px) rotateX(8deg) translateY(0); }
+  50% { transform: perspective(500px) rotateX(8deg) translateY(-6px); }
+}
+
+/* 🔥 Timeline container */
 .exp-cards {
   position: relative;
   padding-left: 50px;
 }
 
+/* 🔥 Gradient vertical line */
 .exp-cards::before {
   content: '';
   position: absolute;
-  left: 15px;
+  left: 16px;
   top: 0;
   bottom: 0;
   width: 2px;
-  background: linear-gradient(to bottom, #c9a84c, transparent);
+  background: linear-gradient(to bottom, #c9a84c, #4e3bbf, transparent);
 }
 
-/* item */
+/* 🔥 Each item */
 .exp-item {
   display: flex;
   gap: 25px;
-  margin-bottom: 50px;
+  margin-bottom: 60px;
   position: relative;
 }
 
-/* dots */
+/* 🔥 Dot with hover animation */
 .exp-dot {
-  width: 14px;
-  height: 14px;
-  background: #c9a84c;
+  width: 16px;
+  height: 16px;
   border-radius: 50%;
-  box-shadow: 0 0 10px #c9a84c;
+  background: #c9a84c;
+  box-shadow: 0 0 0 3px #0d0d18;
+  transition: 0.3s;
 }
 
-.exp-dot.violet {
-  background: #a78bfa;
-  box-shadow: 0 0 10px #a78bfa;
+.exp-item:hover .exp-dot {
+  transform: scale(1.4);
+  background: #e6c96a;
 }
 
-.exp-dot.teal {
-  background: #2dd4bf;
-  box-shadow: 0 0 10px #2dd4bf;
-}
-
-/* card */
+/* 🔥 Card (glass effect) */
 .exp-card {
   background: rgba(255,255,255,0.05);
-  backdrop-filter: blur(12px);
-  border: 1px solid rgba(255,255,255,0.1);
-  padding: 22px;
-  border-radius: 14px;
+  backdrop-filter: blur(10px);
+  padding: 25px;
+  border-radius: 18px;
   width: 100%;
-
+  border: 1px solid rgba(255,255,255,0.08);
   transition: all 0.35s ease;
 }
 
-/* hover effect */
-.exp-card:hover {
-  transform: translateY(-6px) scale(1.02);
-  box-shadow: 0 20px 40px rgba(0,0,0,0.6);
+/* 🔥 Hover interaction */
+.exp-item:hover .exp-card {
+  transform: translateX(8px);
+  box-shadow: 0 10px 40px rgba(0,0,0,0.4);
+  border-color: rgba(201,168,76,0.3);
 }
 
-/* top row */
-.exp-card-top {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-/* org name */
+/* 🔥 Text styling */
 .exp-org {
   font-size: 20px;
   font-weight: 700;
   color: #fff;
 }
 
-/* badges */
-.exp-badge {
-  font-size: 12px;
-  padding: 5px 10px;
-  border-radius: 20px;
-  font-family: 'DM Sans', sans-serif;
-}
-
-.badge-gold {
-  background: rgba(201,168,76,0.2);
-  color: #c9a84c;
-}
-
-.badge-violet {
-  background: rgba(167,139,250,0.2);
-  color: #a78bfa;
-}
-
-.badge-teal {
-  background: rgba(45,212,191,0.2);
-  color: #2dd4bf;
-}
-
-/* role */
 .exp-role {
-  margin-top: 8px;
+  color: #e6c96a;
+  margin-top: 4px;
   font-size: 15px;
-  color: #e0e0e0;
-  font-family: 'DM Sans', sans-serif;
 }
 
-/* period */
 .exp-period {
-  margin-top: 8px;
   font-size: 13px;
   color: #aaa;
-  font-family: 'DM Sans', sans-serif;
+  margin-top: 6px;
 }
 
-/* ================= RESPONSIVE ================= */
-@media (max-width: 768px) {
+/* 🔥 Responsive */
+@media (max-width: 600px) {
+  .exp-cards {
+    padding-left: 35px;
+  }
+
+  .exp-cards::before {
+    left: 10px;
+  }
+
+  .exp-item {
+    gap: 15px;
+  }
 
   .section-title {
-    font-size: 32px;
-  }
-
-  .exp-cards {
-    padding-left: 30px;
-  }
-
-  .exp-deco-num {
-    font-size: 50px;
-    left: 20px;
+    font-size: 2.2rem;
   }
 }
 
