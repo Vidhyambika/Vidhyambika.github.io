@@ -111,21 +111,23 @@ header .logo {
   text-shadow: 0 0 6px rgba(0, 0, 0, 0.6);
 }
 
+
 .home .btn {
-  display: inline-block;
-  padding: 12px 24px;
-  background: #00bfff;
-  color: #111;
-  border-radius: 8px;
-  text-decoration: none;
-  font-weight: 500;
+  padding: 14px 30px;
+  background: linear-gradient(135deg, #00bfff, #0077ff);
+  color: white;
+  border-radius: 50px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  box-shadow: 0 10px 25px rgba(0,191,255,0.4);
   transition: all 0.3s ease;
 }
 
 .home .btn:hover {
-  background: #0099cc;
-  color: #fff;
+  transform: translateY(-3px) scale(1.05);
+  box-shadow: 0 15px 35px rgba(0,191,255,0.6);
 }
+
 
 /* ==================== SOCIAL ICONS ==================== */
 .socials {
@@ -691,167 +693,186 @@ header .logo {
 
 /* experience section starts */
 
-/* ================= EXPERIENCE SECTION (UPGRADED) ================= */
-/* ===== EXPERIENCE SECTION (REFINED + COMPACT) ===== */
+/* ================= EXPERIENCE SECTION ================= */
 
 .experience {
-  background: radial-gradient(circle at top, #0a0a0a, #050505);
-  padding: 60px 8%;
   position: relative;
+  padding: 100px 10%;
+  background: radial-gradient(circle at top, #0a0a0a, #000);
+  overflow: hidden;
 }
 
-/* Decorative Number */
+/* decorative number */
 .exp-deco-num {
   position: absolute;
-  right: 5%;
   top: 40px;
-  font-size: 120px;
+  left: 40px;
+  font-size: 80px;
   font-weight: 900;
-  color: rgba(255,255,255,0.03);
-  pointer-events: none;
+  color: rgba(255,255,255,0.05);
+  font-family: 'Playfair Display', serif;
 }
 
-/* Header */
+/* header */
 .exp-header {
-  margin-bottom: 35px; /* reduced */
+  margin-bottom: 60px;
 }
 
 .section-label {
   color: #c9a84c;
-  font-size: 11px;
-  letter-spacing: 2px;
+  font-size: 13px;
+  letter-spacing: 3px;
+  font-family: 'DM Sans', sans-serif;
 }
 
+/* 🔥 MAIN TITLE */
 .section-title {
-  font-size: 30px; /* reduced */
-  font-weight: 800;
+  font-size: 48px;
+  font-weight: 900;
+  font-family: 'Playfair Display', serif;
   line-height: 1.2;
+  color: #fff;
 }
 
-/* Timeline */
+.section-title em {
+  font-style: normal;
+  color: #c9a84c;
+
+  /* glow effect */
+  text-shadow: 0 0 12px rgba(201,168,76,0.4);
+}
+
+/* timeline */
 .exp-cards {
   position: relative;
-  padding-left: 30px;
+  padding-left: 50px;
 }
 
 .exp-cards::before {
   content: '';
   position: absolute;
-  left: 6px;
+  left: 15px;
   top: 0;
   bottom: 0;
   width: 2px;
   background: linear-gradient(to bottom, #c9a84c, transparent);
 }
 
-/* Each Item */
+/* item */
 .exp-item {
   display: flex;
-  gap: 15px;
-  margin-bottom: 25px; /* reduced */
-  align-items: flex-start;
+  gap: 25px;
+  margin-bottom: 50px;
+  position: relative;
 }
 
-/* Dot */
+/* dots */
 .exp-dot {
-  width: 10px;
-  height: 10px;
+  width: 14px;
+  height: 14px;
   background: #c9a84c;
   border-radius: 50%;
   box-shadow: 0 0 10px #c9a84c;
-  margin-top: 8px;
 }
 
-/* Card */
+.exp-dot.violet {
+  background: #a78bfa;
+  box-shadow: 0 0 10px #a78bfa;
+}
+
+.exp-dot.teal {
+  background: #2dd4bf;
+  box-shadow: 0 0 10px #2dd4bf;
+}
+
+/* card */
 .exp-card {
-  background: linear-gradient(145deg, #0f0f0f, #1a1a1a);
-  padding: 16px; /* reduced */
-  border-radius: 10px;
+  background: rgba(255,255,255,0.05);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255,255,255,0.1);
+  padding: 22px;
+  border-radius: 14px;
   width: 100%;
 
-  /* 3D effect */
-  box-shadow:
-    0 8px 20px rgba(0,0,0,0.6),
-    inset 0 1px 0 rgba(255,255,255,0.05);
-
-  transition: all 0.3s ease;
-  transform-style: preserve-3d;
+  transition: all 0.35s ease;
 }
 
-/* Hover effect */
+/* hover effect */
 .exp-card:hover {
-  transform: translateY(-4px) scale(1.01);
-  box-shadow:
-    0 12px 30px rgba(0,0,0,0.8),
-    0 0 15px rgba(201,168,76,0.3);
+  transform: translateY(-6px) scale(1.02);
+  box-shadow: 0 20px 40px rgba(0,0,0,0.6);
 }
 
-/* Top Row */
+/* top row */
 .exp-card-top {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-/* Org Name */
+/* org name */
 .exp-org {
-  font-size: 17px; /* reduced */
-  font-weight: 600;
-}
-
-/* Badge */
-.exp-badge {
-  font-size: 11px;
-  padding: 4px 10px;
-  border-radius: 20px;
-  font-weight: 600;
-}
-
-/* Badge Colors */
-.badge-gold {
-  background: #c9a84c;
-  color: #000;
-}
-
-.badge-violet {
-  background: #7c3aed;
+  font-size: 20px;
+  font-weight: 700;
   color: #fff;
 }
 
-.badge-teal {
-  background: #14b8a6;
-  color: #000;
-}
-
-/* Role */
-.exp-role {
-  color: #e6c96a;
-  font-size: 13px; /* reduced */
-  margin-top: 4px;
-}
-
-/* Date */
-.exp-period {
+/* badges */
+.exp-badge {
   font-size: 12px;
+  padding: 5px 10px;
+  border-radius: 20px;
+  font-family: 'DM Sans', sans-serif;
+}
+
+.badge-gold {
+  background: rgba(201,168,76,0.2);
+  color: #c9a84c;
+}
+
+.badge-violet {
+  background: rgba(167,139,250,0.2);
+  color: #a78bfa;
+}
+
+.badge-teal {
+  background: rgba(45,212,191,0.2);
+  color: #2dd4bf;
+}
+
+/* role */
+.exp-role {
+  margin-top: 8px;
+  font-size: 15px;
+  color: #e0e0e0;
+  font-family: 'DM Sans', sans-serif;
+}
+
+/* period */
+.exp-period {
+  margin-top: 8px;
+  font-size: 13px;
   color: #aaa;
-  margin-top: 6px;
+  font-family: 'DM Sans', sans-serif;
 }
 
-/* Button */
-.experience .btn {
-  margin-top: 40px;
-  display: inline-block;
-  padding: 10px 22px;
-  background: #c9a84c;
-  color: #000;
-  border-radius: 6px;
-  font-size: 14px;
-  font-weight: 600;
+/* ================= RESPONSIVE ================= */
+@media (max-width: 768px) {
+
+  .section-title {
+    font-size: 32px;
+  }
+
+  .exp-cards {
+    padding-left: 30px;
+  }
+
+  .exp-deco-num {
+    font-size: 50px;
+    left: 20px;
+  }
 }
 
-.experience .btn:hover {
-  background: #e6c96a;
-}
 /* experience media queries ends */
 /* experience section ends */
 
