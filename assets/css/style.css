@@ -1007,14 +1007,6 @@ header .logo {
   line-height: 1.5;
 }
 
-.footer .box-container .box a {
-  font-size: 0.9rem;
-  color: #cbd5f5;
-  margin-bottom: 6px;
-  display: block;
-  transition: 0.3s;
-}
-
 .footer .box-container .box a:hover {
   color: #00bfff;
 }
